@@ -1,0 +1,11 @@
+
+# next build
+.next
+
+# npm
+node_modules
+npm-debug.log
+
+# jest
+coverage
+
