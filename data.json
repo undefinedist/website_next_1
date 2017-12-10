@@ -1,0 +1,172 @@
+{
+  "header": {
+    "headerColor": "main",
+    "logoSrc": "https://dummyimage.com/120x40/000/fff.png&text=UNDEFINED",
+    "logoPy": "10px",
+    "btnTextColor": "blue",
+    "btnBgColor": "white"
+  },
+  "hero": {
+    "heroImage": "https://mrmrs.github.io/photos/u/001.jpg",
+    "titleBgColor": "white",
+    "titleFontColor": "blue",
+    "subTitleBgColor": "white",
+    "subTitleFontColor": "blue"
+  },
+  "promotionVideo": {
+    "bg": "white",
+    "videoUrl": "https://www.youtube.com/embed/KQ6zr6kCPj8?ecver=1",
+    "title": "skywings Interlaken",
+    "subTitle": "Let's go",
+    "thirdTitle": "jabebonge!naver.com",
+    "titleFontColor": "blue",
+    "subTitleFontColor": "blue",
+    "thirdTitleFontColor": "red"
+  },
+  "feature": {
+    "bgColor": "blue",
+    "title": "benefit to work",
+    "features": [
+      {
+        "src": "http://svgshare.com/i/4Cy.svg",
+        "title": "hello world",
+        "description":
+          "Come prepared, wear loose, casual and comfortable clothing with sneakers as footwear, remember it gets cold up there. We will provide your jump suit to put on over your clothes and gloves if its chilly.hahah"
+      },
+      {
+        "src": "http://svgshare.com/i/4Cy.svg",
+        "title": "hello world",
+        "description": "짧은놈"
+      },
+      {
+        "src": "http://svgshare.com/i/4Cy.svg",
+        "title": "hello world",
+        "description":
+          "Come prepared, wear loose, casual and comfortable clothing with sneakers as footwear, r"
+      },
+      {
+        "src": "http://svgshare.com/i/4Cy.svg",
+        "title": "긴놈",
+        "description":
+          "Come prepared, wear loose, casual and comfortable clothing with sneakers as footwear, remember it gets cold up there. We will provide your jump suit to put on over your clothes and gloves if its chilly.hahah"
+      }
+    ]
+  },
+  "gallery": {
+    "images": [
+      {
+        "src":
+          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay04.jpg"
+      },
+      {
+        "src":
+          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay06.jpg"
+      },
+      {
+        "src":
+          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay05.jpg"
+      },
+      {
+        "src":
+          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay02.jpg"
+      },
+      {
+        "src":
+          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay03.jpg"
+      },
+      {
+        "src":
+          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay08.jpg"
+      },
+      {
+        "src":
+          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay07.jpg"
+      },
+      {
+        "src":
+          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay09.jpg"
+      },
+      {
+        "src":
+          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay11.jpg"
+      },
+      {
+        "src":
+          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay12.jpg"
+      },
+      {
+        "src":
+          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay04.jpg"
+      },
+      {
+        "src":
+          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay04.jpg"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "titltielele",
+    "bgColor": "blue",
+    "prices": [
+      {
+        "src": "https://mrmrs.github.io/photos/u/001.jpg",
+        "title": "hellowww world",
+        "description": "be prepared, you can die you know?"
+      },
+      {
+        "src": "https://mrmrs.github.io/photos/u/001.jpg",
+        "title": "hellowww world",
+        "description": "be prepared, you can die you know?"
+      },
+      {
+        "src": "https://mrmrs.github.io/photos/u/001.jpg",
+        "title": "hellowww world",
+        "description": "be prepared, you can die you know?"
+      }
+    ]
+  },
+  "contact": {
+    "title": "COntatct",
+    "description":
+      " At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to an adjoining hall. It was evidently a court-room.",
+    "details": [
+      { "title": "ADDRESS", "description": "this is address hehelhelhe" },
+      { "title": "PHONE NUMBER", "description": "this is address hehelhelhe" },
+      { "title": "DDONG", "description": "this is address hehelhelhe" }
+    ],
+    "detailTitleFontColor": "green",
+    "detailDescriptionFontColor": "black",
+    "map": {
+      "url":
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.313896524734!2d127.03006105076032!3d37.52409723421628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca38e866bff59%3A0xd35080ce6de5bd31!2s627-1+Sinsa-dong%2C+Gangnam-gu%2C+Seoul!5e0!3m2!1sen!2skr!4v1512655476351",
+      "description": "Hello world with all the mcdonald and startbuck com eon"
+    },
+    "mapDescriptionFontColor": "black"
+  },
+  "callToAction": {
+    "smallTitle": "HOT SALE",
+    "smallTitleColor": "white",
+    "title": "Please contact us",
+    "titleColor": "white",
+    "btnBgColor": "white",
+    "btnFontColor": "green",
+    "btnText": "button"
+  },
+  "footer": {
+    "bgColor": "blue",
+    "companies": [
+      {
+        "logoUrl": "https://dummyimage.com/300x82/000/fff.png&text=SKYWINGS",
+        "name": "Skywing Paragliding Interlaken",
+        "email": "mail@skywings.ch",
+        "phone": "+41 79 266 82 28"
+      },
+      {
+        "logoUrl": "https://dummyimage.com/300x82/000/fff.png&text=UNDEFINED",
+        "name": "Undefinedist",
+        "email": "mail@skywings.ch",
+        "phone": "+41 79 266 82 28"
+      }
+    ]
+  }
+}

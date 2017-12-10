@@ -6,15 +6,16 @@ import Gallery from "../components/Gallery";
 import Pricing from "../components/Pricing";
 import Contact from "../components/Contact";
 import CallToAction from "../components/CallToAction";
+import data from "../data.json";
 
 export default () => (
   <Layout>
-    <Hero />
-    <PromotionVideo />
-    <Feature />
-    <Gallery />
-    <Pricing />
-    <Contact />
-    <CallToAction />
+    <Hero {...data.hero} />
+    <PromotionVideo {...data.promotionVideo} />
+    <Feature {...data.feature} />
+    <Gallery {...data.gallery} />
+    <Pricing {...data.pricing} />
+    <Contact {...data.contact} />
+    <CallToAction {...data.callToAction} />
   </Layout>
 );

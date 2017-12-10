@@ -1,0 +1,11 @@
+{
+  "font": "\"Avenir Next\", Helvetica, sans-serif",
+  "fontSizes": [12, 14, 16, 20, 24, 32, 48, 64, 72, 96],
+  "spaces": [4, 8, 16, 32, 64, 128, 256],
+  "breakpoints": ["640px", "840px", "1024px"],
+  "colors": {
+    "black": "#000",
+    "blue": "#07c",
+    "main": "#ea9a4c"
+  }
+}

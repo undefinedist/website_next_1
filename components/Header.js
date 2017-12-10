@@ -1,18 +1,17 @@
-import { Fixed, Image, Container, Box, Flex, Button } from "rebass";
+import { Fixed, Container, Image, Box, Flex, Button } from "rebass";
 
-export default () => {
+export default ({ headerColor, logoSrc, logoPy, btnTextColor, btnBgColor }) => {
   return (
-    <Fixed top right left bg="green">
-      <Container>
-        <Flex justify="space-between" align="center" bg="green">
+    <Fixed top right left bg={headerColor}>
+      <Container px={0}>
+        <Flex justify="space-between" align="center" bg={headerColor}>
           <Box ml={[3, 3, 5, 3]}>
-            <Image
-              py={["10px"]}
-              src="https://dummyimage.com/120x40/000/fff.png&text=UNDEFINED"
-            />
+            <Image py={logoPy} src={logoSrc} />
           </Box>
           <Box>
-            <Button mr={[3, 3, 5, 3]}>예약하기</Button>
+            <Button color={btnTextColor} bg={btnBgColor} mr={[3, 3, 5, 3]}>
+              예약하기
+            </Button>
           </Box>
         </Flex>
       </Container>

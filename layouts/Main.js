@@ -4,6 +4,8 @@ import { Provider, Heading, Button } from "rebass";
 import Color from "color";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import theme from "../theme.json";
+import data from "../data.json";
 
 export default class Main extends React.Component {
   state = {
@@ -30,29 +32,17 @@ export default class Main extends React.Component {
     const children = this.props.children;
     const title = this.props.title;
     return (
-      <Provider
-        theme={{
-          font: '"Avenir Next", Helvetica, sans-serif',
-          fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72, 96],
-          spaces: [4, 8, 16, 32, 64, 128, 256],
-          breakpoints: ["640px", "840px", "1024px"],
-          colors: {
-            black: "#000",
-            blue: "#07c",
-            main: "#ea9a4c"
-          }
-        }}
-      >
+      <Provider theme={theme}>
         <Head>
           <title>{title}</title>
         </Head>
         <header>
-          <Header />
+          <Header {...data.header} />
         </header>
 
         <main>{children}</main>
 
-        <Footer />
+        <Footer {...data.footer} />
       </Provider>
     );
   }

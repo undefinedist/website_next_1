@@ -1,6 +1,14 @@
 import { Text, Image, Container, Box, Flex, Button } from "rebass";
 
-export default () => {
+export default ({
+  smallTitle,
+  smallTitleColor,
+  title,
+  titleColor,
+  btnBgColor,
+  btnFontColor,
+  btnText
+}) => {
   return (
     <Container px={0}>
       <Flex
@@ -10,14 +18,26 @@ export default () => {
         justify="center"
         align="center"
       >
-        <Text color="white" align="center" fontSize={[2]}>
-          HOT SALE
+        <Text color={smallTitleColor} align="center" fontSize={[2]}>
+          {smallTitle}
         </Text>
-        <Text pt={[2]} pb={[1]} color="white" align="center" fontSize={[4, 6]}>
-          Don't Miss This Deal
+        <Text
+          pt={[2]}
+          pb={[1]}
+          color={titleColor}
+          align="center"
+          fontSize={[4, 6]}
+        >
+          {title}
         </Text>
-        <Button bg="white" color="green" fontSize={[0]} py={[3]} px={[5]}>
-          BUTTON
+        <Button
+          bg={btnBgColor}
+          color={btnFontColor}
+          fontSize={[0]}
+          py={[3]}
+          px={[5]}
+        >
+          {btnText}
         </Button>
       </Flex>
     </Container>
