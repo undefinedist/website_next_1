@@ -1,35 +1,36 @@
 {
   "header": {
     "headerColor": "headerColor",
-    "logoSrc": "https://dummyimage.com/120x40/000/fff.png&text=UNDEFINED",
+    "logoSrc": "/static/kantor-logo copy.png",
     "logoPy": "10px",
-    "btnTextColor": "blue",
-    "btnBgColor": "white"
+    "btnTextColor": "black",
+    "btnBgColor": "bottonColor"
   },
   "hero": {
-    "heroImage": "/static/bg_example.jpg",
-    "titleBgColor": "white",
-    "titleFontColor": "blue",
-    "subTitleBgColor": "white",
-    "subTitleFontColor": "blue"
+    "heroImage": "/static/kantor-hero-bg.jpg",
+    "titleBgColor": "",
+    "titleFontColor": "white",
+    "subTitleBgColor": "",
+    "subTitleFontColor": "white"
   },
   "promotionVideo": {
-    "bg": "white",
-    "videoUrl": "https://www.youtube.com/embed/KQ6zr6kCPj8?ecver=1",
-    "title": "skywings Interlaken",
-    "subTitle": "Let's go",
-    "thirdTitle": "jabebonge!naver.com",
-    "titleFontColor": "blue",
-    "subTitleFontColor": "blue",
-    "thirdTitleFontColor": "red"
+    "bg": "fifth",
+    "videoUrl": "https://www.youtube.com/embed/K5Oe7wFXjMQ",
+    "title": "SKYDIVE KANTOR",
+    "subTitle": "Since 1998 in Prague",
+    "thirdTitle":
+      "체코 프라하에 위치한 저희 TANDEMS KANTOR는 1998년에 설립된 스카이다이빙 전문 팀입니다.",
+    "titleFontColor": "third",
+    "subTitleFontColor": "black",
+    "thirdTitleFontColor": "#686865"
   },
   "feature": {
-    "bgColor": "blue",
-    "title": "benefit to work",
-    "titleColor": "red",
+    "bgColor": "",
+    "title": "Why?",
+    "titleColor": "first",
     "features": {
-      "titleColor": "green",
-      "descriptionColor": "black",
+      "titleColor": "black",
+      "descriptionColor": "gray",
       "items": [
         {
           "src": "http://svgshare.com/i/4Cy.svg",
@@ -110,28 +111,28 @@
     ]
   },
   "pricing": {
-    "title": "titltielele",
-    "titleColor": "black",
-    "bgColor": "blue",
+    "title": "Price",
+    "titleColor": "yellow",
+    "bgColor": "fifth",
     "prices": {
-      "titleColor": "red",
-      "descriptionColor": "green",
+      "titleColor": "third",
+      "descriptionColor": "gray",
       "items": [
         {
           "src": "https://mrmrs.github.io/photos/u/001.jpg",
-          "title": "hellowww world",
+          "title": "탠덤다이빙",
           "description": "be prepared, you can die you know?",
           "price": "$300"
         },
         {
           "src": "https://mrmrs.github.io/photos/u/001.jpg",
-          "title": "hellowww world",
+          "title": "탠덤다이빙+사진",
           "description": "be prepared, you can die you know?",
           "price": "$300"
         },
         {
           "src": "https://mrmrs.github.io/photos/u/001.jpg",
-          "title": "hellowww world",
+          "title": "탠덤바이빙+사진+비디오",
           "description": "be prepared, you can die you know?",
           "price": "$500"
         }
@@ -139,34 +140,39 @@
     }
   },
   "contact": {
-    "title": "COntatct",
+    "title": "Pickup",
     "description":
-      " At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to an adjoining hall. It was evidently a court-room.",
+      "픽업은 아래 주소에서 이루어집니다. 픽업 차량 탑승 후 30분여 이동하여 교육 및 실습 후 다이빙이 이루어지며 교통상황 및 기상대기를 고려하면 총 3~4시간 소요됩니다. 칸토코리아는 안전수칙을 준수하며 기상상황에 따라 스카이다이빙은 취소 될 수 있으며 이 경우 고객님께 고지드립니다.",
     "details": [
-      { "title": "ADDRESS", "description": "this is address hehelhelhe" },
-      { "title": "PHONE NUMBER", "description": "this is address hehelhelhe" },
-      { "title": "DDONG", "description": "this is address hehelhelhe" }
+      {
+        "title": "픽업주소",
+        "description":
+          "this is address hehelhelhe(픽업주소는 변동될 수 있습니다)"
+      },
+      { "title": "전화번호", "description": "this is address hehelhelhe" },
+      { "title": "예약상탐", "description": "this is address hehelhelhe" }
     ],
     "detailTitleFontColor": "green",
     "detailDescriptionFontColor": "black",
     "map": {
       "url":
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.313896524734!2d127.03006105076032!3d37.52409723421628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca38e866bff59%3A0xd35080ce6de5bd31!2s627-1+Sinsa-dong%2C+Gangnam-gu%2C+Seoul!5e0!3m2!1sen!2skr!4v1512655476351",
-      "description": "Hello world with all the mcdonald and startbuck com eon"
+      "description":
+        "픽업장소는 교통사정에 따라 변동될 수 있습니다. 예약 시 안내드린 픽업주소를 확인해주세요"
     },
     "mapDescriptionFontColor": "black"
   },
   "callToAction": {
     "smallTitle": "HOT SALE",
     "smallTitleColor": "white",
-    "title": "Please contact us",
+    "title": "지금 예약하세요",
     "titleColor": "white",
     "btnBgColor": "white",
     "btnFontColor": "green",
-    "btnText": "button"
+    "btnText": "예약하기"
   },
   "footer": {
-    "bgColor": "blue",
+    "bgColor": "first",
     "companies": [
       {
         "logoUrl": "https://dummyimage.com/300x82/000/fff.png&text=SKYWINGS",

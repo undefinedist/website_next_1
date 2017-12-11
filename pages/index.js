@@ -14,7 +14,7 @@ import Container from "../components/Container";
 export default () => (
   <Layout>
     <Hero {...data.hero} />
-    <Divider py={1} color="transparent" />
+    <Divider py={0} color="transparent" />
     <PromotionVideo {...data.promotionVideo} />
     <Divider py={0} color="transparent" />
     <Feature {...data.feature} />

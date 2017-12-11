@@ -20,6 +20,9 @@ export default class MyDocument extends Document {
             href="https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css"
             rel="stylesheet"
             type="text/css"
+            href="https://fonts.googleapis.com/css?family=Roboto"
+            rel="stylesheet"
+            type="text/css"
           />
           <style>{`
             body { margin: 0 }
