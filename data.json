@@ -120,17 +120,20 @@
         {
           "src": "https://mrmrs.github.io/photos/u/001.jpg",
           "title": "hellowww world",
-          "description": "be prepared, you can die you know?"
+          "description": "be prepared, you can die you know?",
+          "price": "$300"
         },
         {
           "src": "https://mrmrs.github.io/photos/u/001.jpg",
           "title": "hellowww world",
-          "description": "be prepared, you can die you know?"
+          "description": "be prepared, you can die you know?",
+          "price": "$300"
         },
         {
           "src": "https://mrmrs.github.io/photos/u/001.jpg",
           "title": "hellowww world",
-          "description": "be prepared, you can die you know?"
+          "description": "be prepared, you can die you know?",
+          "price": "$500"
         }
       ]
     }

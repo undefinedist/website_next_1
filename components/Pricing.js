@@ -55,7 +55,7 @@ export default ({ title, titleColor, bgColor, prices }) => {
                       <Text fontSize={0}>Videio</Text>
                     </Flex>
                     <Text pl="6px" fontSize={[4]} align="center">
-                      $3000
+                      {price.price}
                     </Text>
                   </Flex>
                 </Box>
