@@ -1,5 +1,4 @@
 import Layout from "../layouts/Main";
-import { Divider } from "rebass";
 import Hero from "../components/Hero";
 import PromotionVideo from "../components/PromotionVideo";
 import Feature from "../components/Feature";
@@ -14,20 +13,13 @@ import Container from "../components/Container";
 export default () => (
   <Layout>
     <Hero {...data.hero} />
-    <Divider py={0} color="transparent" />
-    <PromotionVideo {...data.promotionVideo} />
-    <Divider py={0} color="transparent" />
-    <Feature {...data.feature} />
-    <Divider py={0} color="transparent" />
-    <Gallery {...data.gallery} />
-    <Divider py={0} color="transparent" />
-    <Pricing {...data.pricing} />
-    <Divider py={0} color="transparent" />
-    <Contact {...data.contact} />
-    <Divider py={0} color="transparent" />
-    <CallToAction {...data.callToAction} />
-    <Divider py={3} color="transparent" />
-    <Container>
+    <PromotionVideo py={5} {...data.promotionVideo} />
+    <Feature py={5} {...data.feature} />
+    <Gallery py={5} {...data.gallery} />
+    <Pricing py={5} {...data.pricing} />
+    <Contact py={5} {...data.contact} />
+    <CallToAction py={5} {...data.callToAction} />
+    <Container py={5}>
       <ReactDisqusComments
         shortname="example"
         identifier="something-unique-12345"

@@ -1,18 +1,10 @@
-import {
-  Avatar,
-  Image,
-  Container,
-  Box,
-  Flex,
-  Button,
-  Text,
-  Banner
-} from "rebass";
+import { Avatar, Image, Box, Flex, Button, Text, Banner } from "rebass";
+import Container from "./Container";
 
 export default ({ title, titleColor, bgColor, prices }) => {
   return (
-    <Container px={0}>
-      <Box py={[4]} bg={bgColor}>
+    <Box py={[4]} bg={bgColor}>
+      <Container>
         <Box pb={[0, 4]}>
           <Text color={titleColor} align="center" fontSize={[5]}>
             {title}
@@ -20,7 +12,7 @@ export default ({ title, titleColor, bgColor, prices }) => {
         </Box>
         <Flex wrap justify="space-around">
           {prices.items.map((price, i) => (
-            <Box key={i} py={[3]} bg="white" w={[1, 1, 1 / 3]}>
+            <Box key={i} py={[3]} w={[1, 1, 1 / 3]}>
               <Flex
                 style={{
                   boxShadow: "0 2px 6px 0 #000"
@@ -29,7 +21,7 @@ export default ({ title, titleColor, bgColor, prices }) => {
                 mx={["10%", "5%"]}
               >
                 <Image src={price.src} />
-                <Box bg="white" p={[3]}>
+                <Box bg={prices.cardColor} p={[3]}>
                   <Text color={prices.titleColor} fontSize={[4]}>
                     {price.title}
                   </Text>
@@ -63,7 +55,7 @@ export default ({ title, titleColor, bgColor, prices }) => {
             </Box>
           ))}
         </Flex>
-      </Box>
-    </Container>
+      </Container>
+    </Box>
   );
 };

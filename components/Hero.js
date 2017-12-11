@@ -2,8 +2,10 @@ import { Box, Flex, Text, Banner } from "rebass";
 
 export default ({
   heroImage,
+  title,
   titleBgColor,
   titleFontColor,
+  subTitle,
   subTitleBgColor,
   subTitleFontColor
 }) => {
@@ -17,7 +19,7 @@ export default ({
             bg={titleBgColor}
             color={titleFontColor}
           >
-            Skydiving Interlaken
+            {title}
           </Text>
           <Text
             align="center"
@@ -25,7 +27,7 @@ export default ({
             bg={subTitleBgColor}
             color={subTitleFontColor}
           >
-            Let's fly
+            {subTitle}
           </Text>
         </Box>
       </Flex>

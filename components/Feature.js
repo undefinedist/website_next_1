@@ -1,9 +1,10 @@
-import { Text, Image, Container, Box, Flex, Button } from "rebass";
+import { Text, Image, Box, Flex, Button } from "rebass";
+import Container from "./Container";
 
-export default ({ bgColor, title, titleColor, features }) => {
+export default ({ bgColor, py, title, titleColor, features }) => {
   return (
-    <Container px={0}>
-      <Box py={[4]} bg={bgColor}>
+    <Box bg={bgColor} py={py}>
+      <Container>
         <Box pb={[0, 4]}>
           <Text color={titleColor} align="center" fontSize={[5]}>
             {title}
@@ -33,7 +34,7 @@ export default ({ bgColor, title, titleColor, features }) => {
             </Box>
           ))}
         </Flex>
-      </Box>
-    </Container>
+      </Container>
+    </Box>
   );
 };

@@ -3,13 +3,16 @@
     "headerColor": "headerColor",
     "logoSrc": "/static/kantor-logo copy.png",
     "logoPy": "10px",
+    "btnText": "예약하기",
     "btnTextColor": "black",
     "btnBgColor": "bottonColor"
   },
   "hero": {
     "heroImage": "/static/kantor-hero-bg.jpg",
+    "title": "skydiving",
     "titleBgColor": "",
     "titleFontColor": "white",
+    "subTitle": "skydiving interlaken",
     "subTitleBgColor": "",
     "subTitleFontColor": "white"
   },
@@ -117,6 +120,7 @@
     "prices": {
       "titleColor": "third",
       "descriptionColor": "gray",
+      "cardColor": "white",
       "items": [
         {
           "src": "https://mrmrs.github.io/photos/u/001.jpg",
@@ -163,6 +167,7 @@
     "mapDescriptionFontColor": "black"
   },
   "callToAction": {
+    "bgColor": "yellow",
     "smallTitle": "HOT SALE",
     "smallTitleColor": "white",
     "title": "지금 예약하세요",
