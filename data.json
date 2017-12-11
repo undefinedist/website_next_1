@@ -1,13 +1,13 @@
 {
   "header": {
-    "headerColor": "main",
+    "headerColor": "headerColor",
     "logoSrc": "https://dummyimage.com/120x40/000/fff.png&text=UNDEFINED",
     "logoPy": "10px",
     "btnTextColor": "blue",
     "btnBgColor": "white"
   },
   "hero": {
-    "heroImage": "https://mrmrs.github.io/photos/u/001.jpg",
+    "heroImage": "/static/bg_example.jpg",
     "titleBgColor": "white",
     "titleFontColor": "blue",
     "subTitleBgColor": "white",
@@ -26,31 +26,36 @@
   "feature": {
     "bgColor": "blue",
     "title": "benefit to work",
-    "features": [
-      {
-        "src": "http://svgshare.com/i/4Cy.svg",
-        "title": "hello world",
-        "description":
-          "Come prepared, wear loose, casual and comfortable clothing with sneakers as footwear, remember it gets cold up there. We will provide your jump suit to put on over your clothes and gloves if its chilly.hahah"
-      },
-      {
-        "src": "http://svgshare.com/i/4Cy.svg",
-        "title": "hello world",
-        "description": "짧은놈"
-      },
-      {
-        "src": "http://svgshare.com/i/4Cy.svg",
-        "title": "hello world",
-        "description":
-          "Come prepared, wear loose, casual and comfortable clothing with sneakers as footwear, r"
-      },
-      {
-        "src": "http://svgshare.com/i/4Cy.svg",
-        "title": "긴놈",
-        "description":
-          "Come prepared, wear loose, casual and comfortable clothing with sneakers as footwear, remember it gets cold up there. We will provide your jump suit to put on over your clothes and gloves if its chilly.hahah"
-      }
-    ]
+    "titleColor": "red",
+    "features": {
+      "titleColor": "green",
+      "descriptionColor": "black",
+      "items": [
+        {
+          "src": "http://svgshare.com/i/4Cy.svg",
+          "title": "hello world",
+          "description":
+            "Come prepared, wear loose, casual and comfortable clothing with sneakers as footwear, remember it gets cold up there. We will provide your jump suit to put on over your clothes and gloves if its chilly.hahah"
+        },
+        {
+          "src": "http://svgshare.com/i/4Cy.svg",
+          "title": "hello world",
+          "description": "짧은놈"
+        },
+        {
+          "src": "http://svgshare.com/i/4Cy.svg",
+          "title": "hello world",
+          "description":
+            "Come prepared, wear loose, casual and comfortable clothing with sneakers as footwear, r"
+        },
+        {
+          "src": "http://svgshare.com/i/4Cy.svg",
+          "title": "긴놈",
+          "description":
+            "한글 폰트 테스트입니다 이게 노토 산 코리안 산스 세리피프가 맞나요?"
+        }
+      ]
+    }
   },
   "gallery": {
     "images": [
@@ -106,24 +111,29 @@
   },
   "pricing": {
     "title": "titltielele",
+    "titleColor": "black",
     "bgColor": "blue",
-    "prices": [
-      {
-        "src": "https://mrmrs.github.io/photos/u/001.jpg",
-        "title": "hellowww world",
-        "description": "be prepared, you can die you know?"
-      },
-      {
-        "src": "https://mrmrs.github.io/photos/u/001.jpg",
-        "title": "hellowww world",
-        "description": "be prepared, you can die you know?"
-      },
-      {
-        "src": "https://mrmrs.github.io/photos/u/001.jpg",
-        "title": "hellowww world",
-        "description": "be prepared, you can die you know?"
-      }
-    ]
+    "prices": {
+      "titleColor": "red",
+      "descriptionColor": "green",
+      "items": [
+        {
+          "src": "https://mrmrs.github.io/photos/u/001.jpg",
+          "title": "hellowww world",
+          "description": "be prepared, you can die you know?"
+        },
+        {
+          "src": "https://mrmrs.github.io/photos/u/001.jpg",
+          "title": "hellowww world",
+          "description": "be prepared, you can die you know?"
+        },
+        {
+          "src": "https://mrmrs.github.io/photos/u/001.jpg",
+          "title": "hellowww world",
+          "description": "be prepared, you can die you know?"
+        }
+      ]
+    }
   },
   "contact": {
     "title": "COntatct",

@@ -1,4 +1,5 @@
-import { Container, Box, Flex, Button, Text, Embed } from "rebass";
+import { Box, Flex, Button, Text, Embed } from "rebass";
+import Container from "./Container";
 
 export default ({
   bg,
@@ -11,7 +12,7 @@ export default ({
   thirdTitleFontColor
 }) => {
   return (
-    <Container px={0}>
+    <Container>
       <Flex bg={bg} py={5} wrap align="center">
         <Box w={[1, 1, 1, 1 / 2]}>
           <Embed>

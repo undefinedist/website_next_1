@@ -4,7 +4,7 @@ export default ({ headerColor, logoSrc, logoPy, btnTextColor, btnBgColor }) => {
   return (
     <Fixed top right left bg={headerColor}>
       <Container px={0}>
-        <Flex justify="space-between" align="center" bg={headerColor}>
+        <Flex justify="space-between" align="center">
           <Box ml={[3, 3, 5, 3]}>
             <Image py={logoPy} src={logoSrc} />
           </Box>

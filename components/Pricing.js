@@ -9,17 +9,17 @@ import {
   Banner
 } from "rebass";
 
-export default ({ title, bgColor, prices }) => {
+export default ({ title, titleColor, bgColor, prices }) => {
   return (
     <Container px={0}>
       <Box py={[4]} bg={bgColor}>
         <Box pb={[0, 4]}>
-          <Text align="center" fontSize={[5]}>
+          <Text color={titleColor} align="center" fontSize={[5]}>
             {title}
           </Text>
         </Box>
         <Flex wrap justify="space-around">
-          {prices.map((price, i) => (
+          {prices.items.map((price, i) => (
             <Box key={i} py={[3]} bg="white" w={[1, 1, 1 / 3]}>
               <Flex
                 style={{
@@ -30,8 +30,10 @@ export default ({ title, bgColor, prices }) => {
               >
                 <Image src={price.src} />
                 <Box bg="white" p={[3]}>
-                  <Text fontSize={[4]}>{price.title}</Text>
-                  <Text pt={3} fontSize={[2]}>
+                  <Text color={prices.titleColor} fontSize={[4]}>
+                    {price.title}
+                  </Text>
+                  <Text color={prices.descriptionColor} pt={3} fontSize={[2]}>
                     {price.description}
                   </Text>
                   <Flex wrap pt={4} justify="space-between" align="center">
