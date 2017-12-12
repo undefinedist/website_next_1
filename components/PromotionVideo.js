@@ -1,8 +1,10 @@
 import { Box, Flex, Button, Text, Embed } from "rebass";
 import Container from "./Container";
+import Prefix from "./Prefix";
 
 export default ({
   bg,
+  prefix,
   videoUrl,
   title,
   subTitle,
@@ -21,13 +23,13 @@ export default ({
               <iframe src={videoUrl} frameBorder="0" allowFullScreen />
             </Embed>
           </Box>
-          <Box order={[1, 1, 1, 2]} px={[2, 4]} w={[1, 1, 1, 1 / 2]}>
+          <Box order={[1, 1, 1, 2]} px={[2, 4]} py={2} w={[1, 1, 1, 1 / 2]}>
             <Flex direction="column">
+              <Prefix {...prefix} />
               <Text
                 color={titleFontColor}
                 f={[5, 7]}
                 bold="bold"
-                py={[3]}
                 lineHeight={1}
               >
                 {title}

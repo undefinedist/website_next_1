@@ -9,9 +9,11 @@
   },
   "hero": {
     "heroImage": "/static/kantor-hero-bg.jpg",
-    "prefix": "let's go",
-    "prefixBgColor": "blue",
-    "prefixFontColor": "white",
+    "prefix": {
+      "text": "let's go",
+      "bg": "blue",
+      "color": "white"
+    },
     "title": "skydiving",
     "titleBgColor": "",
     "titleFontColor": "white",
@@ -21,6 +23,12 @@
   },
   "promotionVideo": {
     "bg": "fifth",
+    "prefix": {
+      "text": "let's gogogogo",
+      "bg": "",
+      "color": "third",
+      "align": "left"
+    },
     "videoUrl": "https://www.youtube.com/embed/K5Oe7wFXjMQ",
     "title": "SKYDIVE KANTOR",
     "subTitle": "Since 1998 in Prague",
