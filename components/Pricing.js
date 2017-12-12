@@ -1,11 +1,13 @@
 import { Avatar, Image, Box, Flex, Button, Text, Banner } from "rebass";
 import Container from "./Container";
+import Prefix from "./Prefix";
 
-export default ({ title, titleColor, bgColor, prices }) => {
+export default ({ prefix, title, titleColor, bgColor, prices }) => {
   return (
     <Box py={[4]} bg={bgColor}>
       <Container>
         <Box pb={[0, 4]}>
+          <Prefix {...prefix} />
           <Text color={titleColor} align="center" fontSize={[5]}>
             {title}
           </Text>

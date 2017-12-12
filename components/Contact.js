@@ -1,9 +1,12 @@
 import { Embed, Text, Box, Flex, Button } from "rebass";
 import Container from "./Container";
+import Prefix from "./Prefix";
 
 export default ({
   py,
+  prefix,
   title,
+  titleColor,
   description,
   details,
   detailTitleFontColor,
@@ -15,14 +18,17 @@ export default ({
     <Box py={py}>
       <Container>
         <Flex pb={[3, 5]} direction="column" align="center">
-          <Text fontSize={[6]}>{title}</Text>
+          <Prefix {...prefix} />
+          <Text pb={3} color={titleColor} align="center" fontSize={[5]}>
+            {title}
+          </Text>
           <Text align="center" color="gray" width={[4 / 5]} fontSize={[2]}>
             {description}
           </Text>
         </Flex>
         <Flex wrap justify="space-around" align="flex-start">
           <Box w={[1, 1 / 2]}>
-            <Flex pl={[4]} direction="column">
+            <Flex px={[2, 4]} direction="column">
               {details.map((detail, i) => (
                 <Box key={i} my={[3]}>
                   <Text color={detailTitleFontColor} fontSize={[0]}>
