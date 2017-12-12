@@ -9,18 +9,15 @@
   },
   "hero": {
     "heroImage": "/static/kantor-hero-bg.jpg",
-    "prefix": {
-      "text": "Best, Experience, Ever!",
-      "bg": "",
-      "color": "white",
-      "align": "center"
-    },
-    "title": "2018 SEASON ON",
-    "titleBgColor": "",
-    "titleFontColor": "white",
-    "subTitle": "SKYDIVE KANTOR",
-    "subTitleBgColor": "yellow",
-    "subTitleFontColor": "white"
+    "heading": {
+      "prefix": "Best, Experience, Ever!",
+      "prefixColor": "white",
+      "primary": "2018 SEASON ON",
+      "primaryColor": "white",
+      "surfix": "SKYDIVE KANTOR",
+      "surfixColor": "white",
+      "surfixBgColor": "yellow"
+    }
   },
   "promotionVideo": {
     "bg": "",
@@ -41,13 +38,13 @@
   },
   "feature": {
     "bgColor": "",
-    "title": "SKYDIVE KANTOR",
-    "titleColor": "black",
-    "prefix": {
-      "text": "Why ?",
-      "bg": "",
-      "color": "third",
-      "align": "center"
+    "heading": {
+      "prefix": "Why ?",
+      "primary": "SKYDIVE KANTOR",
+      "surfix": "Why ?",
+      "mainColor": "black",
+      "subColor": "third",
+      "align": "left"
     },
     "features": {
       "titleColor": "black",
@@ -132,14 +129,14 @@
     ]
   },
   "pricing": {
-    "prefix": {
-      "text": "Three",
-      "bg": "",
-      "color": "third",
+    "heading": {
+      "prefix": "Why ?",
+      "primary": "SKYDIVE KANTOR",
+      "surfix": "Why ?",
+      "mainColor": "black",
+      "subColor": "third",
       "align": "center"
     },
-    "title": "Options",
-    "titleColor": "black",
     "bgColor": "",
     "prices": {
       "titleColor": "black",
@@ -191,11 +188,8 @@
     "detailDescriptionFontColor": "black",
     "map": {
       "url":
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.313896524734!2d127.03006105076032!3d37.52409723421628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca38e866bff59%3A0xd35080ce6de5bd31!2s627-1+Sinsa-dong%2C+Gangnam-gu%2C+Seoul!5e0!3m2!1sen!2skr!4v1512655476351",
-      "description":
-        "픽업장소는 교통사정에 따라 변동될 수 있습니다. 예약 시 안내드린 픽업주소를 확인해주세요"
-    },
-    "mapDescriptionFontColor": "black"
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.313896524734!2d127.03006105076032!3d37.52409723421628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca38e866bff59%3A0xd35080ce6de5bd31!2s627-1+Sinsa-dong%2C+Gangnam-gu%2C+Seoul!5e0!3m2!1sen!2skr!4v1512655476351"
+    }
   },
   "callToAction": {
     "bgColor": "second",

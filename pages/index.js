@@ -18,7 +18,7 @@ export default () => (
     <Feature py={5} {...data.feature} />
     <Gallery py={5} {...data.gallery} />
     <Pricing py={5} {...data.pricing} />
-    <Contact py={6} {...data.contact} />
+    <Contact py={5} {...data.contact} />
     <Container py={6}>
       <ReactDisqusComments
         shortname="example"

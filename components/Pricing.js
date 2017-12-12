@@ -1,17 +1,13 @@
 import { Avatar, Image, Box, Flex, Button, Text, Banner } from "rebass";
 import Container from "./Container";
 import Prefix from "./Prefix";
+import ElaboratedHeading from "./ElaboratedHeading";
 
-export default ({ prefix, title, titleColor, bgColor, prices }) => {
+export default ({ heading, bgColor, prices }) => {
   return (
     <Box py={[4]} bg={bgColor}>
       <Container>
-        <Box pb={[0, 4]}>
-          <Prefix {...prefix} />
-          <Text color={titleColor} align="center" fontSize={[5]}>
-            {title}
-          </Text>
-        </Box>
+        <ElaboratedHeading {...heading} />
         <Flex wrap justify="space-around">
           {prices.items.map((price, i) => (
             <Box key={i} py={[3]} w={[1, 1, 1 / 3]}>

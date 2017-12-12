@@ -18,18 +18,18 @@ export default ({
   return (
     <Box bg={bg} py={py}>
       <Container>
-        <Flex pb={[3, 5]} direction="column" align="center">
-          <Prefix {...prefix} />
-          <Text pb={3} color={titleColor} align="center" fontSize={[5]}>
-            {title}
-          </Text>
-          <Text align="center" color="gray" width={[4 / 5]} fontSize={[2]}>
-            {description}
-          </Text>
-        </Flex>
-        <Flex wrap justify="space-around" align="flex-start">
-          <Box w={[1, 1 / 2]}>
-            <Flex px={[2, 4]} direction="column">
+        <Flex wrap justify="space-around" align="flex-start" align="center">
+          <Box w={[1, 1, 1 / 2]}>
+            <Flex px={[3, 3, 4]} direction="column">
+              <Box>
+                <Prefix {...prefix} />
+                <Text pb={3} color={titleColor} fontSize={[5]}>
+                  {title}
+                </Text>
+                <Text color="gray" fontSize={[2]}>
+                  {description}
+                </Text>
+              </Box>
               {details.map((detail, i) => (
                 <Box key={i} my={[3]}>
                   <Text color={detailTitleFontColor} fontSize={[0]}>
@@ -42,18 +42,10 @@ export default ({
               ))}
             </Flex>
           </Box>
-          <Box pr={[0, 4]} w={[1, 1 / 2]}>
-            <Embed>
+          <Box pr={[0, 0, 4]} w={[1, 1, 1 / 2]}>
+            <Embed style={{ paddingBottom: "110%" }}>
               <iframe src={map.url} frameBorder="0" allowFullScreen />
             </Embed>
-            <Text
-              color={map.mapDescriptionFontColor}
-              px={[3, 0]}
-              pt={[3]}
-              fontSize={[3]}
-            >
-              {map.description}
-            </Text>
           </Box>
         </Flex>
       </Container>

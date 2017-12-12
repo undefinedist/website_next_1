@@ -1,17 +1,13 @@
 import { Text, Image, Box, Flex, Button } from "rebass";
 import Container from "./Container";
 import Prefix from "./Prefix";
+import ElaboratedHeading from "./ElaboratedHeading";
 
-export default ({ bgColor, py, title, titleColor, prefix, features }) => {
+export default ({ heading, bgColor, py, features }) => {
   return (
     <Box bg={bgColor} py={py}>
       <Container>
-        <Box pb={[0, 4]}>
-          <Prefix {...prefix} />
-          <Text color={titleColor} align="center" fontSize={[5]}>
-            {title}
-          </Text>
-        </Box>
+        <ElaboratedHeading {...heading} />
         <Flex wrap justify="space-around">
           {features.items.map((feature, i) => (
             <Box w={[1, 1 / 4]} key={i}>
