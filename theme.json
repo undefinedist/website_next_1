@@ -14,7 +14,7 @@
     "fourth": "#F4F1BB",
     "fifth": "#F4F1DE",
 
-    "headerColor": "rgba(57, 145, 221, 1)",
+    "headerColor": "rgba(57, 145, 221, 0)",
     "bottonColor": "#ECDC67"
   }
 }

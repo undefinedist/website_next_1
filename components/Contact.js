@@ -4,6 +4,7 @@ import Prefix from "./Prefix";
 
 export default ({
   py,
+  bg,
   prefix,
   title,
   titleColor,
@@ -15,7 +16,7 @@ export default ({
   mapDescriptionFontColor
 }) => {
   return (
-    <Box py={py}>
+    <Box bg={bg} py={py}>
       <Container>
         <Flex pb={[3, 5]} direction="column" align="center">
           <Prefix {...prefix} />

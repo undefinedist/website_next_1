@@ -1,7 +1,7 @@
 {
   "header": {
     "headerColor": "headerColor",
-    "logoSrc": "/static/kantor-logo copy.png",
+    "logoSrc": "/static/logo.png",
     "logoPy": "10px",
     "btnText": "예약하기",
     "btnTextColor": "black",
@@ -10,21 +10,22 @@
   "hero": {
     "heroImage": "/static/kantor-hero-bg.jpg",
     "prefix": {
-      "text": "let's go",
-      "bg": "blue",
-      "color": "white"
+      "text": "Best, Experience, Ever!",
+      "bg": "",
+      "color": "white",
+      "align": "center"
     },
-    "title": "skydiving",
+    "title": "2018 SEASON ON",
     "titleBgColor": "",
     "titleFontColor": "white",
-    "subTitle": "skydiving interlaken",
-    "subTitleBgColor": "",
+    "subTitle": "SKYDIVE KANTOR",
+    "subTitleBgColor": "yellow",
     "subTitleFontColor": "white"
   },
   "promotionVideo": {
-    "bg": "fifth",
+    "bg": "",
     "prefix": {
-      "text": "let's gogogogo",
+      "text": "About",
       "bg": "",
       "color": "third",
       "align": "left"
@@ -34,16 +35,16 @@
     "subTitle": "Since 1998 in Prague",
     "thirdTitle":
       "체코 프라하에 위치한 저희 TANDEMS KANTOR는 1998년에 설립된 스카이다이빙 전문 팀입니다.",
-    "titleFontColor": "third",
+    "titleFontColor": "black",
     "subTitleFontColor": "black",
-    "thirdTitleFontColor": "#686865"
+    "thirdTitleFontColor": "black"
   },
   "feature": {
     "bgColor": "",
-    "title": "Skydive Interlaken",
-    "titleColor": "first",
+    "title": "SKYDIVE KANTOR",
+    "titleColor": "black",
     "prefix": {
-      "text": "Why?",
+      "text": "Why ?",
       "bg": "",
       "color": "third",
       "align": "center"
@@ -54,24 +55,24 @@
       "items": [
         {
           "src": "http://svgshare.com/i/4Cy.svg",
-          "title": "hello world",
+          "title": "검증된 안전성",
           "description":
             "Come prepared, wear loose, casual and comfortable clothing with sneakers as footwear, remember it gets cold up there. We will provide your jump suit to put on over your clothes and gloves if its chilly.hahah"
         },
         {
           "src": "http://svgshare.com/i/4Cy.svg",
-          "title": "hello world",
+          "title": "합리적인 가격",
           "description": "짧은놈"
         },
         {
           "src": "http://svgshare.com/i/4Cy.svg",
-          "title": "hello world",
+          "title": "소수한정",
           "description":
             "Come prepared, wear loose, casual and comfortable clothing with sneakers as footwear, r"
         },
         {
           "src": "http://svgshare.com/i/4Cy.svg",
-          "title": "긴놈",
+          "title": "고객서비스",
           "description":
             "한글 폰트 테스트입니다 이게 노토 산 코리안 산스 세리피프가 맞나요?"
         }
@@ -132,16 +133,16 @@
   },
   "pricing": {
     "prefix": {
-      "text": "Why?",
+      "text": "Three",
       "bg": "",
       "color": "third",
       "align": "center"
     },
-    "title": "Price",
-    "titleColor": "yellow",
-    "bgColor": "fifth",
+    "title": "Options",
+    "titleColor": "black",
+    "bgColor": "",
     "prices": {
-      "titleColor": "third",
+      "titleColor": "black",
       "descriptionColor": "gray",
       "cardColor": "white",
       "items": [
@@ -167,13 +168,14 @@
     }
   },
   "contact": {
+    "bg": "fifth",
     "prefix": {
-      "text": "let's go",
-      "bg": "blue",
-      "color": "white"
+      "text": "Pick up",
+      "bg": "",
+      "color": "third"
     },
-    "title": "Pickup",
-    "titleColor": "blue",
+    "title": "Point",
+    "titleColor": "black",
     "description":
       "픽업은 아래 주소에서 이루어집니다. 픽업 차량 탑승 후 30분여 이동하여 교육 및 실습 후 다이빙이 이루어지며 교통상황 및 기상대기를 고려하면 총 3~4시간 소요됩니다. 칸토코리아는 안전수칙을 준수하며 기상상황에 따라 스카이다이빙은 취소 될 수 있으며 이 경우 고객님께 고지드립니다.",
     "details": [
@@ -185,7 +187,7 @@
       { "title": "전화번호", "description": "this is address hehelhelhe" },
       { "title": "예약상탐", "description": "this is address hehelhelhe" }
     ],
-    "detailTitleFontColor": "green",
+    "detailTitleFontColor": "first",
     "detailDescriptionFontColor": "black",
     "map": {
       "url":
@@ -196,17 +198,17 @@
     "mapDescriptionFontColor": "black"
   },
   "callToAction": {
-    "bgColor": "yellow",
-    "smallTitle": "HOT SALE",
+    "bgColor": "second",
+    "smallTitle": "2018 SEASON EARLY BIRD",
     "smallTitleColor": "white",
-    "title": "지금 예약하세요",
+    "title": "미리 예약하세요!",
     "titleColor": "white",
     "btnBgColor": "white",
-    "btnFontColor": "green",
+    "btnFontColor": "black",
     "btnText": "예약하기"
   },
   "footer": {
-    "bgColor": "first",
+    "bgColor": "",
     "companies": [
       {
         "logoUrl": "https://dummyimage.com/300x82/000/fff.png&text=SKYWINGS",

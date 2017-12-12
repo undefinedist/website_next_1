@@ -34,15 +34,10 @@ export default ({
               >
                 {title}
               </Text>
-              <Text color={subTitleFontColor} f={[2, 5]} bold="normal" my={[1]}>
+              <Text color={subTitleFontColor} f={[2, 5]} my={[1]}>
                 {subTitle}
               </Text>
-              <Text
-                color={thirdTitleFontColor}
-                f={[1, 3]}
-                bold="normal"
-                my={[1]}
-              >
+              <Text color={thirdTitleFontColor} f={[1, 3]} my={[1]}>
                 {thirdTitle}
               </Text>
             </Flex>

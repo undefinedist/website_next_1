@@ -24,7 +24,7 @@ export default class MyDocument extends Document {
           <link
             href="https://fonts.googleapis.com/css?family=Neuton|Roboto"
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto"
+            type="text/css"
           />
           <style>{`
             body { margin: 0 }
