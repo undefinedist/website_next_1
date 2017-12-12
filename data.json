@@ -42,8 +42,9 @@
       "prefix": "Why ?",
       "primary": "SKYDIVE KANTOR",
       "surfix": "Why ?",
-      "mainColor": "black",
-      "subColor": "third",
+      "prefixColor": "black",
+      "primaryColor": "third",
+      "surfixColor": "third",
       "align": "left"
     },
     "features": {
@@ -133,8 +134,9 @@
       "prefix": "Why ?",
       "primary": "SKYDIVE KANTOR",
       "surfix": "Why ?",
-      "mainColor": "black",
-      "subColor": "third",
+      "prefixColor": "black",
+      "primaryColor": "third",
+      "surfixColor": "third",
       "align": "center"
     },
     "bgColor": "",
