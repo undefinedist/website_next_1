@@ -16,12 +16,12 @@ export default ({
     <Box bg={bg} py={py}>
       <Container>
         <Flex wrap align="center">
-          <Box w={[1, 1, 1, 1 / 2]}>
+          <Box order={[2, 2, 2, 1]} w={[1, 1, 1, 1 / 2]}>
             <Embed>
               <iframe src={videoUrl} frameBorder="0" allowFullScreen />
             </Embed>
           </Box>
-          <Box px={[2, 4]} w={[1, 1, 1, 1 / 2]}>
+          <Box order={[1, 1, 1, 2]} px={[2, 4]} w={[1, 1, 1, 1 / 2]}>
             <Flex direction="column">
               <Text
                 color={titleFontColor}

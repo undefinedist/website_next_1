@@ -3,6 +3,9 @@ import BannerResponsive from "./BannerResponsive";
 
 export default ({
   heroImage,
+  prefix,
+  prefixBgColor,
+  prefixFontColor,
   title,
   titleBgColor,
   titleFontColor,
@@ -13,6 +16,15 @@ export default ({
   return (
     <BannerResponsive backgroundImage={heroImage}>
       <Box pt={4}>
+        <Text
+          style={{ fontStyle: "italic" }}
+          align="center"
+          fontSize={[2, 4]}
+          bg={prefixBgColor}
+          color={prefixFontColor}
+        >
+          {prefix}
+        </Text>
         <Text
           align="center"
           fontSize={[5, 8, 8, 8]}

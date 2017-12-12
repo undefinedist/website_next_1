@@ -9,6 +9,9 @@
   },
   "hero": {
     "heroImage": "/static/kantor-hero-bg.jpg",
+    "prefix": "let's go",
+    "prefixBgColor": "blue",
+    "prefixFontColor": "white",
     "title": "skydiving",
     "titleBgColor": "",
     "titleFontColor": "white",
