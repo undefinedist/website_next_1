@@ -16,7 +16,7 @@
       "primaryColor": "white",
       "surfix": "SKYDIVE KANTOR",
       "surfixColor": "white",
-      "surfixBgColor": "yellow"
+      "surfixBgColor": "first"
     }
   },
   "promotionVideo": {
@@ -34,17 +34,17 @@
       "체코 프라하에 위치한 저희 TANDEMS KANTOR는 1998년에 설립된 스카이다이빙 전문 팀입니다.",
     "titleFontColor": "black",
     "subTitleFontColor": "black",
-    "thirdTitleFontColor": "black"
+    "thirdTitleFontColor": "gray"
   },
   "feature": {
     "bgColor": "",
     "heading": {
-      "prefix": "Why ?",
+      "prefix": "Jump with",
       "primary": "SKYDIVE KANTOR",
-      "surfix": "Why ?",
-      "prefixColor": "black",
-      "primaryColor": "third",
-      "surfixColor": "third",
+      "surfix": "since 1996 in prague",
+      "prefixColor": "third",
+      "primaryColor": "black",
+      "surfixColor": "black",
       "align": "left"
     },
     "features": {
@@ -52,27 +52,22 @@
       "descriptionColor": "gray",
       "items": [
         {
-          "src": "http://svgshare.com/i/4Cy.svg",
+          "src": "/static/top-rated.svg",
           "title": "검증된 안전성",
           "description":
             "Come prepared, wear loose, casual and comfortable clothing with sneakers as footwear, remember it gets cold up there. We will provide your jump suit to put on over your clothes and gloves if its chilly.hahah"
         },
         {
-          "src": "http://svgshare.com/i/4Cy.svg",
-          "title": "합리적인 가격",
-          "description": "짧은놈"
+          "src": "/static/no.svg",
+          "title": "한정 예약",
+          "description":
+            "It's Like Sausage Factory! 소세지 공장처럼 빨리빨리 던져버리는 경험이 추억일까요? 고객만족 약속을 위해 하루 한정된 예약만을 받습니다."
         },
         {
-          "src": "http://svgshare.com/i/4Cy.svg",
-          "title": "소수한정",
+          "src": "/static/online-testimonials.svg",
+          "title": "실시간 한국어 상담",
           "description":
-            "Come prepared, wear loose, casual and comfortable clothing with sneakers as footwear, r"
-        },
-        {
-          "src": "http://svgshare.com/i/4Cy.svg",
-          "title": "고객서비스",
-          "description":
-            "한글 폰트 테스트입니다 이게 노토 산 코리안 산스 세리피프가 맞나요?"
+            "어떤 상품을 해야할지, 어떤 날짜에 에약 해야 할 지 걱정되신다구요? 카톡으로 한국인 직원과 실시간으로 상담하세요. 실시간 한국인 전문상담원이 24시간 상담해드립니다."
         }
       ]
     }
@@ -131,43 +126,39 @@
   },
   "pricing": {
     "heading": {
-      "prefix": "Why ?",
-      "primary": "SKYDIVE KANTOR",
-      "surfix": "Why ?",
-      "prefixColor": "black",
-      "primaryColor": "third",
-      "surfixColor": "third",
+      "prefix": "Video",
+      "primary": "Price List",
+      "surfix": "다신 안 볼 영상. 꿀잼 흑역사 만들기!",
+      "prefixColor": "third",
+      "primaryColor": "black",
+      "surfixColor": "gray",
       "align": "center"
     },
-    "bgColor": "",
+    "bgColor": "fourth",
     "prices": {
       "titleColor": "black",
       "descriptionColor": "gray",
       "cardColor": "white",
       "items": [
         {
-          "src": "https://mrmrs.github.io/photos/u/001.jpg",
-          "title": "탠덤다이빙",
-          "description": "be prepared, you can die you know?",
-          "price": "$300"
+          "src": "/static/1.png",
+          "title": "Option1",
+          "description":
+            "Just dive in the sky! 5000m 상공에서 전문 다이버와 함께 스카이다이빙합니다. 픽업부터 다이빙전 교육까지 가격에 모두 포함되어 있습니다.",
+          "price": "4200CZK"
         },
         {
-          "src": "https://mrmrs.github.io/photos/u/001.jpg",
-          "title": "탠덤다이빙+사진",
-          "description": "be prepared, you can die you know?",
-          "price": "$300"
-        },
-        {
-          "src": "https://mrmrs.github.io/photos/u/001.jpg",
-          "title": "탠덤바이빙+사진+비디오",
-          "description": "be prepared, you can die you know?",
-          "price": "$500"
+          "src": "/static/3.png",
+          "title": "Option 2",
+          "description":
+            "Tandem Diving+Video ! 탠덤 다이빙과 함께 다이버의 고프로 영상과 사진을 제공합니다. 비행준비부터 다이빙까지! 평생의 추억을 영상으로 담아보세요.",
+          "price": "5200CZK"
         }
       ]
     }
   },
   "contact": {
-    "bg": "fifth",
+    "bg": "",
     "prefix": {
       "text": "Pick up",
       "bg": "",
@@ -175,36 +166,38 @@
     },
     "title": "Point",
     "titleColor": "black",
-    "description":
-      "픽업은 아래 주소에서 이루어집니다. 픽업 차량 탑승 후 30분여 이동하여 교육 및 실습 후 다이빙이 이루어지며 교통상황 및 기상대기를 고려하면 총 3~4시간 소요됩니다. 칸토코리아는 안전수칙을 준수하며 기상상황에 따라 스카이다이빙은 취소 될 수 있으며 이 경우 고객님께 고지드립니다.",
+    "description": "아래 주소에서 픽업차량에 승차해주시기 바랍니다",
     "details": [
       {
         "title": "픽업주소",
-        "description":
-          "this is address hehelhelhe(픽업주소는 변동될 수 있습니다)"
+        "description": "Václavské nám. 813/57, Nové Město, 110 00 Praha, 체코"
       },
-      { "title": "전화번호", "description": "this is address hehelhelhe" },
-      { "title": "예약상탐", "description": "this is address hehelhelhe" }
+      { "title": "예약상담", "description": "카카오톡 아이디 : 칸토코리아" },
+      {
+        "title": "유의사항",
+        "description":
+          "픽업 주소는 현지 교통상황에 따라 변동될 수 있습니다. 픽업시간 10분전에는 여유있게 도착하시길 권장드립니다. 픽업 차량 탑승 후 30분여 이동하여 교육 및 실습 후 다이빙이 이루어지며 교통상황 및 기상대기를 고려하면 총 3~4시간 소요됩니다. 칸토코리아는 안전수칙을 준수하며 기상상황에 따라 스카이다이빙은 취소 될 수 있으며 이 경우 고객님께 고지드립니다."
+      }
     ],
-    "detailTitleFontColor": "first",
-    "detailDescriptionFontColor": "black",
+    "detailTitleFontColor": "third",
+    "detailDescriptionFontColor": "gray",
     "map": {
       "url":
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.313896524734!2d127.03006105076032!3d37.52409723421628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca38e866bff59%3A0xd35080ce6de5bd31!2s627-1+Sinsa-dong%2C+Gangnam-gu%2C+Seoul!5e0!3m2!1sen!2skr!4v1512655476351"
     }
   },
   "callToAction": {
-    "bgColor": "second",
+    "bgColor": "",
     "smallTitle": "2018 SEASON EARLY BIRD",
-    "smallTitleColor": "white",
+    "smallTitleColor": "first",
     "title": "미리 예약하세요!",
-    "titleColor": "white",
-    "btnBgColor": "white",
-    "btnFontColor": "black",
+    "titleColor": "gray",
+    "btnBgColor": "first",
+    "btnFontColor": "white",
     "btnText": "예약하기"
   },
   "footer": {
-    "bgColor": "",
+    "bgColor": "gray",
     "companies": [
       {
         "logoUrl": "https://dummyimage.com/300x82/000/fff.png&text=SKYWINGS",
@@ -215,8 +208,8 @@
       {
         "logoUrl": "https://dummyimage.com/300x82/000/fff.png&text=UNDEFINED",
         "name": "Undefinedist",
-        "email": "mail@skywings.ch",
-        "phone": "+41 79 266 82 28"
+        "email": "jay@undefined.ist",
+        "phone": "Jaebong Jang"
       }
     ]
   }

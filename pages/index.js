@@ -1,24 +1,23 @@
 import Layout from "../layouts/Main";
 import Hero from "../components/Hero";
 import PromotionVideo from "../components/PromotionVideo";
-import CallToAction from "../components/CallToAction";
-import Feature from "../components/Feature";
 import Gallery from "../components/Gallery";
-import Pricing from "../components/Pricing";
 import Contact from "../components/Contact";
+import Feature from "../components/Feature";
+import Pricing from "../components/Pricing";
 import ReactDisqusComments from "react-disqus-comments";
 import data from "../data.json";
 import Container from "../components/Container";
+import CallToAction from "../components/CallToAction";
 
 export default () => (
   <Layout>
     <Hero {...data.hero} />
     <PromotionVideo py={5} {...data.promotionVideo} />
-    <CallToAction py={6} {...data.callToAction} />
-    <Feature py={5} {...data.feature} />
     <Gallery py={5} {...data.gallery} />
-    <Pricing py={5} {...data.pricing} />
+    <Feature py={5} {...data.feature} />
     <Contact py={5} {...data.contact} />
+    <Pricing py={5} {...data.pricing} />
     <Container py={6}>
       <ReactDisqusComments
         shortname="example"
@@ -28,5 +27,6 @@ export default () => (
         category_id="123456"
       />
     </Container>
+    <CallToAction py={5} {...data.callToAction} />
   </Layout>
 );
