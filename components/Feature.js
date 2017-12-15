@@ -8,7 +8,7 @@ export default ({ heading, bgColor, py, features }) => {
     <Box bg={bgColor} py={py}>
       <Container>
         <ElaboratedHeading {...heading} />
-        <Flex wrap justify="space-around">
+        <Flex px={[3, 3, 4]} wrap justify="space-around">
           {features.items.map((feature, i) => (
             <Box w={[1, 1 / 4]} key={i}>
               <Flex direction="column" py={[3]}>

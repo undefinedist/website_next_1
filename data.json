@@ -142,6 +142,7 @@
       "items": [
         {
           "src": "/static/1.png",
+          "icons": ["pickup", "skydiving"],
           "title": "Option1",
           "description":
             "Just dive in the sky! 5000m 상공에서 전문 다이버와 함께 스카이다이빙합니다. 픽업부터 다이빙전 교육까지 가격에 모두 포함되어 있습니다.",
@@ -149,6 +150,7 @@
         },
         {
           "src": "/static/3.png",
+          "icons": ["pickup", "skydiving", "video"],
           "title": "Option 2",
           "description":
             "Tandem Diving+Video ! 탠덤 다이빙과 함께 다이버의 고프로 영상과 사진을 제공합니다. 비행준비부터 다이빙까지! 평생의 추억을 영상으로 담아보세요.",

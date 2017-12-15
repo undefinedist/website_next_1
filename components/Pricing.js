@@ -37,21 +37,20 @@ export default ({ heading, bgColor, prices }) => {
                   </Text>
                   <Flex wrap pt={4} justify="space-between" align="center">
                     <Flex align="center">
-                      <Avatar
-                        size="32px"
-                        src="https://s3-us-west-1.amazonaws.com/c8r-demo/jxnblk.jpg"
-                      />
-                      <Text fontSize={0}>Diving</Text>
-                      <Avatar
-                        size="32px"
-                        src="https://s3-us-west-1.amazonaws.com/c8r-demo/jxnblk.jpg"
-                      />
-                      <Text fontSize={0}>Picture</Text>
-                      <Avatar
-                        size="32px"
-                        src="https://s3-us-west-1.amazonaws.com/c8r-demo/jxnblk.jpg"
-                      />
-                      <Text fontSize={0}>Videio</Text>
+                      {price.icons.map((icon, i) => (
+                        <Flex direction="row" align="center" pr={2}>
+                          <Box>
+                            <Image
+                              width="32px"
+                              src={`/static/${icon}.svg`}
+                              mr={2}
+                            />
+                          </Box>
+                          <Box>
+                            <Text fontSize={0}>{icon.toUpperCase()}</Text>
+                          </Box>
+                        </Flex>
+                      ))}
                     </Flex>
                     <Text pl="6px" fontSize={[4]} align="center">
                       {price.price}
