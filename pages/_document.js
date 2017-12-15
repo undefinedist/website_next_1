@@ -30,6 +30,10 @@ export default class MyDocument extends Document {
             body { margin: 0 }
             * {box-sizing: border-box}
             `}</style>
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
           {this.props.styleTags}
         </Head>
         <body>
