@@ -9,15 +9,31 @@ export default ({
   prefix,
   primary,
   surfix,
-  align
+  type
 }) => {
   return (
     <Box px={[3, 3, 4]} pb={[0, 4]}>
-      <Prefix color={prefixColor} text={prefix} align={align} />
-      <Text color={primaryColor} mb="-8px" align={align} fontSize={[5]}>
+      <Prefix
+        fontStyle="italic"
+        color={prefixColor}
+        text={prefix}
+        align={type}
+      />
+      <Text
+        bold="bold"
+        color={primaryColor}
+        mb={type === "left" ? "-8px" : "0px"}
+        align={type}
+        fontSize={[5]}
+      >
         {primary}
       </Text>
-      <Prefix color={surfixColor} text={surfix} align={align} />
+      <Prefix
+        fontStyle={type === "left" ? "italic" : "normal"}
+        color={surfixColor}
+        text={surfix}
+        align={type}
+      />
     </Box>
   );
 };

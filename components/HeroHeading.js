@@ -12,7 +12,12 @@ export default ({
 }) => {
   return (
     <Box pt={4}>
-      <Prefix color={prefixColor} text={prefix} align="center" />
+      <Prefix
+        fontStyle="italic"
+        color={prefixColor}
+        text={prefix}
+        align="center"
+      />
       <Text
         align="center"
         fontSize={[5, 8, 8, 8]}

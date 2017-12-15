@@ -10,17 +10,26 @@ export default ({ heading, bgColor, prices }) => {
         <ElaboratedHeading {...heading} />
         <Flex wrap justify="space-around">
           {prices.items.map((price, i) => (
-            <Box key={i} py={[3]} w={[1, 1, 1 / 3]}>
+            <Box key={i} py={[3]} w={[1, 1, 1 / 2]}>
               <Flex
                 style={{
-                  boxShadow: "0 2px 6px 0 #000"
+                  boxShadow: "0 2px 6px 0 #000",
+                  borderRadius: "4px"
                 }}
+                bg={bgColor}
                 direction="column"
                 mx={["10%", "5%"]}
               >
-                <Image src={price.src} />
-                <Box bg={prices.cardColor} p={[3]}>
-                  <Text color={prices.titleColor} fontSize={[4]}>
+                <Image
+                  style={{ borderRadius: "4px 4px 0 0" }}
+                  src={price.src}
+                />
+                <Box
+                  style={{ borderRadius: "0 0 4px 4px" }}
+                  bg={prices.cardColor}
+                  p={[3]}
+                >
+                  <Text bold="bold" color={prices.titleColor} fontSize={[4]}>
                     {price.title}
                   </Text>
                   <Text color={prices.descriptionColor} pt={3} fontSize={[2]}>

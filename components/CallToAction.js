@@ -29,6 +29,7 @@ export default ({
             {title}
           </Text>
           <Button
+            style={{ letterSpacing: "3px" }}
             bg={btnBgColor}
             color={btnFontColor}
             fontSize={[0]}

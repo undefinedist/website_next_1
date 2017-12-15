@@ -9,6 +9,7 @@ export default ({
   title,
   titleColor,
   description,
+  descriptionColor,
   details,
   detailTitleFontColor,
   detailDescriptionFontColor,
@@ -23,10 +24,10 @@ export default ({
             <Flex px={[3, 3, 4]} direction="column">
               <Box>
                 <Prefix {...prefix} />
-                <Text pb={3} color={titleColor} fontSize={[5]}>
+                <Text bold="bold" pb={3} color={titleColor} fontSize={[5]}>
                   {title}
                 </Text>
-                <Text color="gray" fontSize={[2]}>
+                <Text color={descriptionColor} fontSize={[2]}>
                   {description}
                 </Text>
               </Box>

@@ -45,7 +45,7 @@
       "prefixColor": "third",
       "primaryColor": "black",
       "surfixColor": "black",
-      "align": "left"
+      "type": "left"
     },
     "features": {
       "titleColor": "black",
@@ -132,7 +132,7 @@
       "prefixColor": "third",
       "primaryColor": "black",
       "surfixColor": "gray",
-      "align": "center"
+      "type": "center"
     },
     "bgColor": "fourth",
     "prices": {
@@ -162,11 +162,13 @@
     "prefix": {
       "text": "Pick up",
       "bg": "",
-      "color": "third"
+      "color": "third",
+      "fontStyle": "italic"
     },
     "title": "Point",
     "titleColor": "black",
     "description": "아래 주소에서 픽업차량에 승차해주시기 바랍니다",
+    "descriptionColor": "gray",
     "details": [
       {
         "title": "픽업주소",
@@ -183,7 +185,7 @@
     "detailDescriptionFontColor": "gray",
     "map": {
       "url":
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.313896524734!2d127.03006105076032!3d37.52409723421628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca38e866bff59%3A0xd35080ce6de5bd31!2s627-1+Sinsa-dong%2C+Gangnam-gu%2C+Seoul!5e0!3m2!1sen!2skr!4v1512655476351"
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.330530327087!2d14.427835715717967!3d50.080098179426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b949280cf5443%3A0xaf71a8b7e994802d!2zVsOhY2xhdnNrw6kgbsOhbS4gODEzLzU3LCAxMTAgMDAgUHJhaGEgMS1Ob3bDqSBNxJtzdG8sIEN6ZWNoaWE!5e0!3m2!1sen!2skr!4v1513324022358"
     }
   },
   "callToAction": {
