@@ -6,7 +6,8 @@
   "scripts": {
     "prep": "./ops/prep.sh",
     "dev": "yarn prep $PARTNER && next",
-    "deploy": "yarn prep $PARTNER && now && now alias",
+    "deploy":
+      "yarn prep $PARTNER && now && now alias && now rm $PARTNER --safe",
     "build": "next build",
     "start": "next start"
   },
