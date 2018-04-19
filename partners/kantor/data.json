@@ -8,7 +8,7 @@
     "btnBgColor": "bottonColor"
   },
   "hero": {
-    "heroImage": "/static/kantor-hero-bg.jpg",
+    "heroImage": "/static/hero-bg.jpg",
     "heading": {
       "prefix": "Best, Experience, Ever!",
       "prefixColor": "white",
@@ -176,7 +176,7 @@
         "title": "픽업주소",
         "description": "Václavské nám. 813/57, Nové Město, 110 00 Praha, 체코"
       },
-      { "title": "예약상담", "description": "카카오톡 아이디 : 칸토코리아" },
+      {"title": "예약상담", "description": "카카오톡 아이디 : 칸토코리아"},
       {
         "title": "유의사항",
         "description":

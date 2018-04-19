@@ -8,13 +8,13 @@
     "btnBgColor": "bottonColor"
   },
   "hero": {
-    "heroImage": "/static/kantor-hero-bg.jpg",
+    "heroImage": "/static/hero-bg.jpg",
     "heading": {
       "prefix": "Best, Experience, Ever!",
       "prefixColor": "white",
       "primary": "2018 SEASON ON",
       "primaryColor": "white",
-      "surfix": "SKYDIVE KANTOR",
+      "surfix": "SKYDIVE INTERLAKEN",
       "surfixColor": "white",
       "surfixBgColor": "first"
     }
@@ -27,9 +27,9 @@
       "color": "third",
       "align": "left"
     },
-    "videoUrl": "https://www.youtube.com/embed/K5Oe7wFXjMQ",
-    "title": "SKYDIVE KANTOR",
-    "subTitle": "Since 1998 in Prague",
+    "videoUrl": "https://www.youtube.com/embed/AqNSqeXlpJw",
+    "title": "SKYDIVE INTERLAKEN",
+    "subTitle": "SKYDIVE IN INTERLAKEN",
     "thirdTitle":
       "체코 프라하에 위치한 저희 TANDEMS KANTOR는 1998년에 설립된 스카이다이빙 전문 팀입니다.",
     "titleFontColor": "black",
@@ -40,7 +40,7 @@
     "bgColor": "",
     "heading": {
       "prefix": "Jump with",
-      "primary": "SKYDIVE KANTOR",
+      "primary": "SKYDIVE INTERLAKEN",
       "surfix": "since 1996 in prague",
       "prefixColor": "third",
       "primaryColor": "black",
@@ -176,7 +176,7 @@
         "title": "픽업주소",
         "description": "Václavské nám. 813/57, Nové Město, 110 00 Praha, 체코"
       },
-      { "title": "예약상담", "description": "카카오톡 아이디 : 칸토코리아" },
+      {"title": "예약상담", "description": "카카오톡 아이디 : 칸토코리아"},
       {
         "title": "유의사항",
         "description":

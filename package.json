@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "prep": "./ops/prep.sh",
-    "dev": "next",
+    "dev": "yarn prep $PARTNER && next",
+    "deploy": "yarn prep $PARTNER && now && now alias",
     "build": "next build",
     "start": "next start"
   },
