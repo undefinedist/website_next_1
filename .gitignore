@@ -9,3 +9,7 @@ npm-debug.log
 # jest
 coverage
 
+now.json
+data.json
+theme.json
+static
