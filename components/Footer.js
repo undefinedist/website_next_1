@@ -1,6 +1,6 @@
-import { Text, Image, Container, Box, Flex, Button } from "rebass";
+import {Text, Image, Container, Box, Flex, Button} from 'rebass'
 
-export default ({ bgColor, companies }) => {
+export default ({bgColor, companies}) => {
   return (
     <Flex wrap bg={bgColor} pb={[5]}>
       {companies.map((company, i) => (
@@ -10,20 +10,22 @@ export default ({ bgColor, companies }) => {
           w={[1, 1 / 2]}
           direction="column"
           justify="center"
-          align="center"
-        >
+          align="center">
           <Image my={[1]} width="100px" src={company.logoUrl} />
           <Text fontSize={[0]} my={[0]} align="center">
             {company.name}
           </Text>
           <Text fontSize={[0]} my={[0]} align="center">
-            {company.email}
+            {company.phone}
           </Text>
           <Text fontSize={[0]} my={[0]} align="center">
-            {company.phone}
+            {company.serial}
+          </Text>
+          <Text fontSize={[0]} my={[0]} align="center">
+            {company.email}
           </Text>
         </Flex>
       ))}
     </Flex>
-  );
-};
+  )
+}

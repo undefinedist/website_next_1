@@ -7,7 +7,7 @@
     "prep": "./ops/prep.sh",
     "dev": "yarn prep $PARTNER && next",
     "deploy":
-      "yarn prep $PARTNER && now && now alias && now rm $PARTNER --safe",
+      "yarn prep $PARTNER && now && now alias && now rm $PARTNER --safe -y",
     "build": "next build",
     "start": "next start"
   },
