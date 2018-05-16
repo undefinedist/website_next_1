@@ -1,5 +1,6 @@
-import {Flex, Box, Text, Image} from 'rebass'
+import {Flex, Box, Text} from 'rebass'
 import styled from 'styled-components'
+import {Image} from 'cloudinary-react'
 
 const Container = styled(Box)`
   max-width: 40em;
@@ -22,7 +23,11 @@ export default ({imgUrls, text, date}) => (
             <Text pt={3} fontSize={[2]}>
               {text}
             </Text>
-            <Box>{imgUrls.map(url => <Image src={url} />)}</Box>
+            <Box>
+              {imgUrls.map(url => (
+                <Image cloudName="undefinedist" publicId="1" crop="scale" />
+              ))}
+            </Box>
           </Box>
         </Flex>
       </Box>

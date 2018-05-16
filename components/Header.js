@@ -1,4 +1,4 @@
-import { Fixed, Container, Image, Box, Flex, Button } from "rebass";
+import {Fixed, Container, Image, Box, Flex, Button} from 'rebass'
 
 export default ({
   headerColor,
@@ -6,7 +6,10 @@ export default ({
   logoPy,
   btnText,
   btnTextColor,
-  btnBgColor
+  btnBgColor,
+  reviewBtnText,
+  reviewBtnBgColor,
+  reviewBtnTextColor,
 }) => {
   return (
     <Fixed z={1000} top right left bg={headerColor}>
@@ -17,17 +20,29 @@ export default ({
           </Box>
           <Box>
             <Button
+              is="a"
+              href="/reviews"
+              px={[20, 20, 28]}
+              py="10px"
+              color={reviewBtnTextColor}
+              bg={reviewBtnBgColor}
+              mr={[3, 3, 5, 3]}>
+              {reviewBtnText}
+            </Button>
+            <Button
+              is="a"
+              target="_blank"
+              href="http://pf.kakao.com/_xeisixd"
               px={[20, 20, 28]}
               py="10px"
               color={btnTextColor}
               bg={btnBgColor}
-              mr={[3, 3, 5, 3]}
-            >
+              mr={[3, 3, 5, 3]}>
               {btnText}
             </Button>
           </Box>
         </Flex>
       </Container>
     </Fixed>
-  );
-};
+  )
+}

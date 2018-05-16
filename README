@@ -7,3 +7,7 @@ prep.sh가 partners/에 있는 필요한 파일들을 root로 옮겨준
 # remove un aliased deployed service
 now rm $PARTNER --safe
 
+
+
+# dev
+PARTNER=kantor yarn dev

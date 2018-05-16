@@ -6,19 +6,21 @@
   "scripts": {
     "prep": "./ops/prep.sh",
     "dev": "yarn prep $PARTNER && next",
-    "deploy":
-      "yarn prep $PARTNER && now && now alias && now rm $PARTNER --safe -y",
+    "deploy": "yarn prep $PARTNER && now && now alias && now rm $PARTNER --safe -y",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "cloudinary-react": "^1.0.6",
     "color": "^3.0.0",
-    "next": "^5.1.0",
-    "prettier": "^1.9.1",
+    "next": "^6.0.2",
     "react": "^16.3.2",
     "react-disqus-comments": "^1.2.0",
-    "react-dom": "^16.2.0",
-    "rebass": "^1.0.7",
+    "react-dom": "^16.3.2",
+    "rebass": "1.0.7",
     "styled-components": "^3.2.6"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.1"
   }
 }

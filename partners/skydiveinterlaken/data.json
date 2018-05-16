@@ -5,7 +5,10 @@
     "logoPy": "10px",
     "btnText": "예약하기",
     "btnTextColor": "black",
-    "btnBgColor": "bottonColor"
+    "btnBgColor": "bottonColor",
+    "reviewBtnText": "후기",
+    "reviewBtnTextColor": "black",
+    "reviewbtnBgColor": "bottonColor"
   },
   "hero": {
     "heroImage": "/static/hero-bg.jpg",
@@ -197,6 +200,7 @@
     "title": "미리 예약하세요!",
     "titleColor": "gray",
     "btnBgColor": "first",
+    "reviewBtnBgColor": "first",
     "btnFontColor": "white",
     "btnText": "예약하기"
   },

@@ -1,14 +1,14 @@
-import Layout from "../layouts/Main";
-import Hero from "../components/Hero";
-import PromotionVideo from "../components/PromotionVideo";
-import Gallery from "../components/Gallery";
-import Contact from "../components/Contact";
-import Feature from "../components/Feature";
-import Pricing from "../components/Pricing";
-import ReactDisqusComments from "react-disqus-comments";
-import data from "../data.json";
-import Container from "../components/Container";
-import CallToAction from "../components/CallToAction";
+import Layout from '../layouts/Main'
+import Hero from '../components/Hero'
+import PromotionVideo from '../components/PromotionVideo'
+import Gallery from '../components/Gallery'
+import Contact from '../components/Contact'
+import Feature from '../components/Feature'
+import Pricing from '../components/Pricing'
+import ReactDisqusComments from 'react-disqus-comments'
+import data from '../data.json'
+import Container from '../components/Container'
+import CallToAction from '../components/CallToAction'
 
 export default () => (
   <Layout>
@@ -20,13 +20,11 @@ export default () => (
     <Pricing py={5} {...data.pricing} />
     <Container py={6}>
       <ReactDisqusComments
-        shortname="example"
-        identifier="something-unique-12345"
-        title="Example Thread"
-        url="http://www.example.com/example-thread"
-        category_id="123456"
+        shortname="kantorskydive"
+        identifier="kantorskydive-main"
+        title="reviews"
       />
     </Container>
     <CallToAction py={5} {...data.callToAction} />
   </Layout>
-);
+)
