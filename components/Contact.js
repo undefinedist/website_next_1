@@ -1,6 +1,6 @@
-import { Embed, Text, Box, Flex, Button } from "rebass";
-import Container from "./Container";
-import Prefix from "./Prefix";
+import {Embed, Text, Box, Flex, Button} from 'rebass'
+import Container from './Container'
+import Prefix from './Prefix'
 
 export default ({
   py,
@@ -14,17 +14,21 @@ export default ({
   detailTitleFontColor,
   detailDescriptionFontColor,
   map,
-  mapDescriptionFontColor
+  mapDescriptionFontColor,
 }) => {
   return (
     <Box bg={bg} py={py}>
       <Container>
-        <Flex wrap justify="space-around" align="flex-start" align="center">
+        <Flex wrap justifyContent="space-around" alignItems="center">
           <Box w={[1, 1, 1 / 2]}>
-            <Flex px={[3, 3, 4]} direction="column">
+            <Flex px={[3, 3, 4]} flexDirection="column">
               <Box>
                 <Prefix {...prefix} />
-                <Text bold="bold" pb={3} color={titleColor} fontSize={[5]}>
+                <Text
+                  fontWeight="bold"
+                  pb={3}
+                  color={titleColor}
+                  fontSize={[5]}>
                   {title}
                 </Text>
                 <Text color={descriptionColor} fontSize={[2]}>
@@ -36,7 +40,10 @@ export default ({
                   <Text color={detailTitleFontColor} fontSize={[0]}>
                     {detail.title}
                   </Text>
-                  <Text color={detailDescriptionFontColor} fontSize={[2]}>
+                  <Text
+                    style={{wordBreak: 'keep-all'}}
+                    color={detailDescriptionFontColor}
+                    fontSize={[2]}>
                     {detail.description}
                   </Text>
                 </Box>
@@ -44,12 +51,12 @@ export default ({
             </Flex>
           </Box>
           <Box pr={[0, 0, 4]} w={[1, 1, 1 / 2]}>
-            <Embed style={{ paddingBottom: "110%" }}>
+            <Embed style={{paddingBottom: '110%'}}>
               <iframe src={map.url} frameBorder="0" allowFullScreen />
             </Embed>
           </Box>
         </Flex>
       </Container>
     </Box>
-  );
-};
+  )
+}

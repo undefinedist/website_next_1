@@ -1,4 +1,7 @@
 {
+  "metaData": {
+    "title": "Skydive Kantor"
+  },
   "header": {
     "headerColor": "headerColor",
     "logoSrc": "/static/logo.png",
@@ -8,7 +11,7 @@
     "btnBgColor": "bottonColor",
     "reviewBtnText": "후기",
     "reviewBtnTextColor": "black",
-    "reviewbtnBgColor": "bottonColor"
+    "reviewBtnBgColor": "bottonColor"
   },
   "hero": {
     "heroImage": "/static/hero-bg.jpg",
@@ -78,52 +81,58 @@
   "gallery": {
     "images": [
       {
-        "src":
-          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay04.jpg"
+        "src": "/static/insta_1.jpg"
       },
       {
-        "src":
-          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay06.jpg"
+        "src": "/static/insta_2.jpg"
       },
       {
-        "src":
-          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay05.jpg"
+        "src": "/static/insta_3.jpg"
       },
       {
-        "src":
-          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay02.jpg"
+        "src": "/static/insta_4.jpg"
       },
       {
-        "src":
-          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay03.jpg"
+        "src": "/static/insta_5.jpg"
       },
       {
-        "src":
-          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay08.jpg"
+        "src": "/static/insta_6.jpg"
       },
       {
-        "src":
-          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay07.jpg"
+        "src": "/static/insta_10.jpg"
       },
       {
-        "src":
-          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay09.jpg"
+        "src": "/static/insta_13.jpg"
       },
       {
-        "src":
-          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay11.jpg"
+        "src": "/static/insta_18.jpg"
       },
       {
-        "src":
-          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay12.jpg"
+        "src": "/static/insta_19.jpg"
       },
       {
-        "src":
-          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay04.jpg"
+        "src": "/static/fb_1.jpg"
       },
       {
-        "src":
-          "http://australianskydive.com.au/wp-content/uploads/2016/08/Australian-Skydive-Torquay04.jpg"
+        "src": "/static/fb_2.jpg"
+      },
+      {
+        "src": "/static/fb_3.jpg"
+      },
+      {
+        "src": "/static/fb_4.jpg"
+      },
+      {
+        "src": "/static/fb_5.jpg"
+      },
+      {
+        "src": "/static/fb_6.jpg"
+      },
+      {
+        "src": "/static/fb_7.jpg"
+      },
+      {
+        "src": "/static/fb_8.jpg"
       }
     ]
   },
@@ -137,15 +146,15 @@
       "surfixColor": "gray",
       "type": "center"
     },
-    "bgColor": "fourth",
+    "bgColor": "",
     "prices": {
       "titleColor": "black",
       "descriptionColor": "gray",
       "cardColor": "white",
       "items": [
         {
-          "src": "/static/1.png",
-          "icons": ["pickup", "skydiving"],
+          "src": "/static/5.jpeg",
+          "icons": "다이빙",
           "title": "Option1",
           "description":
             "Just dive in the sky! 5000m 상공에서 전문 다이버와 함께 스카이다이빙합니다. 픽업부터 다이빙전 교육까지 가격에 모두 포함되어 있습니다.",
@@ -153,11 +162,19 @@
         },
         {
           "src": "/static/3.png",
-          "icons": ["pickup", "skydiving", "video"],
+          "icons": "다이빙 사진 또는 비디오",
           "title": "Option 2",
           "description":
             "Tandem Diving+Video ! 탠덤 다이빙과 함께 다이버의 고프로 영상과 사진을 제공합니다. 비행준비부터 다이빙까지! 평생의 추억을 영상으로 담아보세요.",
           "price": "5200CZK"
+        },
+        {
+          "src": "/static/4.jpeg",
+          "icons": "다이빙 사진과 비디오",
+          "title": "Option 3",
+          "description":
+            "Tandem Diving+Pictures+Video! 탠덤 다이빙과 함께 다이버의 고프로 영상과 사진을 제공합니다. 비행준비부터 다이빙까지! 평생의 추억을 영상과 사진으로 담아보세요.",
+          "price": "6200CZK"
         }
       ]
     }

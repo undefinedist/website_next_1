@@ -30,7 +30,7 @@ export default class Main extends React.Component {
   }
   render() {
     const children = this.props.children
-    const title = this.props.title
+    const title = data.metaData.title
     return (
       <Provider theme={theme}>
         <Head>

@@ -1,5 +1,5 @@
-import { Box, Flex, Text, Banner } from "rebass";
-import Prefix from "./Prefix";
+import {Box, Flex, Text, Banner} from 'rebass'
+import Prefix from './Prefix'
 
 export default ({
   prefix,
@@ -8,7 +8,7 @@ export default ({
   primaryColor,
   surfix,
   surfixColor,
-  surfixBgColor
+  surfixBgColor,
 }) => {
   return (
     <Box pt={4}>
@@ -21,20 +21,18 @@ export default ({
       <Text
         align="center"
         fontSize={[5, 8, 8, 8]}
-        bold="bold"
-        color={primaryColor}
-      >
+        fontWeight="bold"
+        color={primaryColor}>
         {primary}
       </Text>
       <Text
         align="center"
-        style={{ fontFamily: "Neuton" }}
+        style={{fontFamily: 'Neuton'}}
         fontSize={[2, 5, 5, 5]}
         bg={surfixBgColor}
-        color={surfixColor}
-      >
+        color={surfixColor}>
         {surfix}
       </Text>
     </Box>
-  );
-};
+  )
+}

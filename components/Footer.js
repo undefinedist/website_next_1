@@ -8,7 +8,7 @@ export default ({bgColor, companies}) => {
           key={i}
           mt={[5]}
           w={[1, 1 / 2]}
-          direction="column"
+          flexDirection="column"
           justify="center"
           align="center">
           <Image my={[1]} width="100px" src={company.logoUrl} />

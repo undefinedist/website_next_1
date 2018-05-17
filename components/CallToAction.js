@@ -1,5 +1,5 @@
-import { Text, Image, Box, Flex, Button } from "rebass";
-import Container from "./Container";
+import {Text, Image, Box, Flex, Button} from 'rebass'
+import Container from './Container'
 
 export default ({
   py,
@@ -10,36 +10,37 @@ export default ({
   titleColor,
   btnBgColor,
   btnFontColor,
-  btnText
+  btnText,
 }) => {
   return (
     <Box py={py} bg={bgColor}>
       <Container>
-        <Flex direction="column" justify="center" align="center">
-          <Text color={smallTitleColor} align="center" fontSize={[2]}>
+        <Flex
+          flexDirection="column"
+          justifyContent="center"
+          alignItems="center">
+          <Text color={smallTitleColor} alignItems="center" fontSize={[2]}>
             {smallTitle}
           </Text>
           <Text
             pt={[2]}
             pb={[1]}
             color={titleColor}
-            align="center"
-            fontSize={[4, 6]}
-          >
+            alignItems="center"
+            fontSize={[4, 6]}>
             {title}
           </Text>
           <Button
-            style={{ letterSpacing: "3px" }}
+            style={{letterSpacing: '3px'}}
             bg={btnBgColor}
             color={btnFontColor}
             fontSize={[0]}
             py={[3]}
-            px={[5]}
-          >
+            px={[5]}>
             {btnText}
           </Button>
         </Flex>
       </Container>
     </Box>
-  );
-};
+  )
+}

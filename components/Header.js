@@ -12,14 +12,16 @@ export default ({
   reviewBtnTextColor,
 }) => {
   return (
-    <Fixed z={1000} top right left bg={headerColor}>
+    <Fixed z={1000} top={0} right={0} left={0} bg={headerColor}>
       <Container px={0}>
-        <Flex justify="space-between" align="center">
+        <Flex justifyContent="space-between" alignItems="center">
           <Box ml={[3, 3, 5, 3]}>
-            <Image py={logoPy} src={logoSrc} />
+            <a href="/">
+              <Image py={logoPy} src={logoSrc} />
+            </a>
           </Box>
-          <Box>
-            <Button
+          <Box right>
+            {/*            <Button
               is="a"
               href="/reviews"
               px={[20, 20, 28]}
@@ -29,6 +31,7 @@ export default ({
               mr={[3, 3, 5, 3]}>
               {reviewBtnText}
             </Button>
+            */}
             <Button
               is="a"
               target="_blank"
