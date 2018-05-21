@@ -20,11 +20,11 @@ export default () => (
     <Contact py={5} {...data.contact} />
     <Pricing py={5} {...data.pricing} />
     <Container>
-      <Box mx={['3.3%', '1.3%']}>
+      <Box py={5} mx={['3.3%', '1.3%']}>
         <ReactDisqusComments
-          shortname="kantorskydive"
-          identifier="kantorskydive-main"
-          title="Skydive Kantor"
+          shortname={data.disqus.shortname}
+          identifier={data.disqus.identifier}
+          title={data.disqus.title}
         />
       </Box>
     </Container>

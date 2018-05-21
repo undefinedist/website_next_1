@@ -30,8 +30,8 @@ export default ({heading, bgColor, prices}) => {
                   <Flex
                     flexDirection="row"
                     justifyContent="space-around"
-                    py={2}>
-                    <Box width={3 / 10}>
+                    pt={3}>
+                    <Box pb={1} width={3 / 10}>
                       <Text fontWeight="bold" fontSize={0} children="가격:" />
                     </Box>
                     <Box width={7 / 10}>

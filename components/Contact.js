@@ -29,7 +29,7 @@ export default ({
                   pb={3}
                   color={titleColor}
                   fontSize={[5]}>
-                  {title}
+                  {title.toUpperCase()}
                 </Text>
                 <Text color={descriptionColor} fontSize={[2]}>
                   {description}

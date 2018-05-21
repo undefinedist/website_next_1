@@ -31,6 +31,9 @@ export default ({
             {title}
           </Text>
           <Button
+            is="a"
+            target="_blank"
+            href="http://pf.kakao.com/_xeisixd"
             style={{letterSpacing: '3px'}}
             bg={btnBgColor}
             color={btnFontColor}

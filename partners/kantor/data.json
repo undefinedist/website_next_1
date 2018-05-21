@@ -61,7 +61,7 @@
           "src": "/static/top-rated.svg",
           "title": "검증된 안전성",
           "description":
-            "Come prepared, wear loose, casual and comfortable clothing with sneakers as footwear, remember it gets cold up there. We will provide your jump suit to put on over your clothes and gloves if its chilly.hahah"
+            "1998년 프라하 최초 전문 스카이다이빙을 시작한 이후로 지금까지 1만명이 넘는 관광객이 칸토와 함께 스카이다이빙을 즐겼습니다. 수천번의 다이빙 경험을 지닌 모든 탠덤다이버는 전문 자격증을 보유하였고 20년 무사고가 그 안전성을 증명합니다."
         },
         {
           "src": "/static/no.svg",
@@ -166,7 +166,7 @@
           "title": "Option 2",
           "description":
             "Tandem Diving+Video ! 탠덤 다이빙과 함께 다이버의 고프로 영상과 사진을 제공합니다. 비행준비부터 다이빙까지! 평생의 추억을 영상으로 담아보세요.",
-          "price": "5200CZK"
+          "price": "5800CZK"
         },
         {
           "src": "/static/4.jpeg",
@@ -194,7 +194,8 @@
     "details": [
       {
         "title": "픽업주소",
-        "description": "Václavské nám. 813/57, Nové Město, 110 00 Praha, 체코"
+        "description":
+          "스타벅스 앞, Václavské nám. 813/57, Nové Město, 110 00 Praha, 체코"
       },
       {"title": "예약상담", "description": "카카오톡 아이디 : 칸토코리아"},
       {
@@ -225,10 +226,10 @@
     "bgColor": "gray",
     "companies": [
       {
-        "logoUrl": "https://dummyimage.com/300x82/000/fff.png&text=SKYWINGS",
-        "name": "Skywing Paragliding Interlaken",
-        "email": "mail@skywings.ch",
-        "phone": "+41 79 266 82 28",
+        "logoUrl": "https://dummyimage.com/300x82/000/fff.png&text=KANTOR",
+        "name": "Skydive Kantor",
+        "email": "posta@padaky.cz",
+        "phone": "+420 603 456 227",
         "serial": ""
       },
       {
@@ -257,5 +258,10 @@
       "text": "jang jae",
       "date": "2017/3/3"
     }
-  ]
+  ],
+  "disqus": {
+    "shortname": "kantorskydive",
+    "identifier": "kantorskydive-main",
+    "title": "Skydive Kantor"
+  }
 }
