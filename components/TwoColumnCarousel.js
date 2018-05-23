@@ -1,5 +1,6 @@
-import {Embed, Text, Box, Flex, Button} from 'rebass'
+import {Text, Box, Flex, Button} from 'rebass'
 import Container from './Container'
+import InstructionCarousel from './InstructionCarousel'
 import Prefix from './Prefix'
 import noDataNoRender from './HOC/noDataNoRender'
 
@@ -31,7 +32,7 @@ export default noDataNoRender(
                     pb={3}
                     color={titleColor}
                     fontSize={[5]}>
-                    {title}
+                    {title.toUpperCase()}
                   </Text>
                   <Text color={descriptionColor} fontSize={[2]}>
                     {description}
@@ -53,9 +54,7 @@ export default noDataNoRender(
               </Flex>
             </Box>
             <Box pr={[0, 0, 4]} w={[1, 1, 1 / 2]}>
-              <Embed style={{paddingBottom: '110%'}}>
-                <iframe src={map.url} frameBorder="0" allowFullScreen />
-              </Embed>
+              <InstructionCarousel />
             </Box>
           </Flex>
         </Container>

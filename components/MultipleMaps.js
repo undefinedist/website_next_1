@@ -1,32 +1,33 @@
-import {Avatar, Image, Box, Flex, Button, Text, Banner} from 'rebass'
+import {Embed, Avatar, Image, Box, Flex, Button, Text, Banner} from 'rebass'
 import Container from './Container'
 import Prefix from './Prefix'
 import ElaboratedHeading from './ElaboratedHeading'
-import noDataNoRender from './HOC/noDataNoRender'
 
-export default noDataNoRender(({heading, bgColor, prices}) => {
+export default ({heading, bgColor, maps}) => {
   return (
     <Box py={[4]} bg={bgColor}>
       <Container>
         <ElaboratedHeading {...heading} />
         <Flex wrap justifyContent="space-around">
-          {prices.items.map((price, i) => (
+          {maps.items.map((map, i) => (
             <Box key={i} py={[3]} w={[1, 1, 1 / 3]}>
               <Flex bg={bgColor} flexDirection="column" mx={['10%', '5%']}>
-                <Image src={price.src} />
-                <Box bg={prices.cardColor} py={[3]}>
+                <Embed style={{paddingBottom: '110%'}}>
+                  <iframe src={map.url} frameBorder="0" allowFullScreen />
+                </Embed>
+                <Box bg={maps.cardColor} py={[3]}>
                   <Text
                     fontWeight="bold"
-                    color={prices.titleColor}
+                    color={maps.titleColor}
                     fontSize={[4]}>
-                    {price.title}
+                    {map.title}
                   </Text>
                   <Text
                     style={{wordBreak: 'keep-all'}}
-                    color={prices.descriptionColor}
+                    color={maps.descriptionColor}
                     pt={3}
                     fontSize={[2]}>
-                    {price.description}
+                    {map.description}
                   </Text>
                   <Flex
                     flexDirection="row"
@@ -36,7 +37,7 @@ export default noDataNoRender(({heading, bgColor, prices}) => {
                       <Text fontWeight="bold" fontSize={0} children="가격:" />
                     </Box>
                     <Box width={7 / 10}>
-                      <Text fontSize={0}>{price.price}</Text>
+                      <Text fontSize={0}>{map.price}</Text>
                     </Box>
                   </Flex>
                   <Flex wrap justifyContent="space-between" alignItems="center">
@@ -48,7 +49,7 @@ export default noDataNoRender(({heading, bgColor, prices}) => {
                       />
                     </Box>
                     <Box width={7 / 10}>
-                      <Text fontSize={0}>{price.icons}</Text>
+                      <Text fontSize={0}>{map.icons}</Text>
                     </Box>
                   </Flex>
                 </Box>
@@ -59,4 +60,4 @@ export default noDataNoRender(({heading, bgColor, prices}) => {
       </Container>
     </Box>
   )
-})
+}

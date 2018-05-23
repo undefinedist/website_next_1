@@ -33,11 +33,11 @@
       "color": "third",
       "align": "left"
     },
-    "videoUrl": "https://www.youtube.com/embed/vxwA-5zLYhg",
-    "title": "AIRTIME PARAGLIDING",
-    "subTitle": "The only way to Fly!",
+    "videoUrl": "https://www.youtube.com/embed/K5Oe7wFXjMQ",
+    "title": "SKYDIVE KANTOR",
+    "subTitle": "Since 1998 in Prague",
     "thirdTitle":
-      "Airtime Paragliding was founded after over 20 years of flying experience around the World",
+      "체코 프라하에 위치한 저희 TANDEMS KANTOR는 1998년에 설립된 스카이다이빙 전문 팀입니다.",
     "titleFontColor": "black",
     "subTitleFontColor": "black",
     "thirdTitleFontColor": "gray"
@@ -47,7 +47,7 @@
     "heading": {
       "prefix": "Fly with",
       "primary": "Airtime Paragliding",
-      "surfix": "The only way to Fly!",
+      "surfix": "since 1996 in prague",
       "prefixColor": "third",
       "primaryColor": "black",
       "surfixColor": "black",
@@ -61,7 +61,7 @@
           "src": "/static/top-rated.svg",
           "title": "검증된 안전성",
           "description":
-            "20년 넘는 비행 경력을 가진 파일럿들과 함께 라우터부르넨 절벽을 날아보세요"
+            "1998년 프라하 최초 전문 스카이다이빙을 시작한 이후로 지금까지 1만명이 넘는 관광객이 칸토와 함께 스카이다이빙을 즐겼습니다. 수천번의 다이빙 경험을 지닌 모든 탠덤다이버는 전문 자격증을 보유하였고 20년 무사고가 그 안전성을 증명합니다."
         },
         {
           "src": "/static/no.svg",
@@ -84,70 +84,94 @@
         "src": "/static/insta_1.jpg"
       },
       {
+        "src": "/static/insta_2.jpg"
+      },
+      {
+        "src": "/static/insta_3.jpg"
+      },
+      {
         "src": "/static/insta_4.jpg"
       },
       {
         "src": "/static/insta_5.jpg"
       },
       {
-        "src": "/static/insta_7.jpg"
-      },
-      {
-        "src": "/static/insta_8.jpg"
-      },
-      {
-        "src": "/static/insta_9.jpg"
-      },
-      {
-        "src": "/static/insta_2.jpg"
-      },
-      {
         "src": "/static/insta_6.jpg"
       },
       {
-        "src": "/static/insta_3.jpg"
+        "src": "/static/insta_10.jpg"
+      },
+      {
+        "src": "/static/insta_13.jpg"
+      },
+      {
+        "src": "/static/insta_18.jpg"
+      },
+      {
+        "src": "/static/insta_19.jpg"
+      },
+      {
+        "src": "/static/fb_1.jpg"
+      },
+      {
+        "src": "/static/fb_2.jpg"
+      },
+      {
+        "src": "/static/fb_3.jpg"
+      },
+      {
+        "src": "/static/fb_4.jpg"
+      },
+      {
+        "src": "/static/fb_5.jpg"
+      },
+      {
+        "src": "/static/fb_6.jpg"
+      },
+      {
+        "src": "/static/fb_7.jpg"
+      },
+      {
+        "src": "/static/fb_8.jpg"
       }
     ]
   },
-  "multipleMaps": {
+  "pricing": {
     "heading": {
       "prefix": "Video",
-      "primary": "Pick up points",
-      "surfix": "내려오면서 날라가요",
+      "primary": "Price List",
+      "surfix": "다신 안 볼 영상. 꿀잼 흑역사 만들기!",
       "prefixColor": "third",
       "primaryColor": "black",
       "surfixColor": "gray",
       "type": "center"
     },
     "bgColor": "",
-    "maps": {
+    "prices": {
       "titleColor": "black",
       "descriptionColor": "gray",
       "cardColor": "white",
       "items": [
         {
-          "url":
-            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.330530327087!2d14.427835715717967!3d50.080098179426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b949280cf5443%3A0xaf71a8b7e994802d!2zVsOhY2xhdnNrw6kgbsOhbS4gODEzLzU3LCAxMTAgMDAgUHJhaGEgMS1Ob3bDqSBNxJtzdG8sIEN6ZWNoaWE!5e0!3m2!1sen!2skr!4v1513324022358",
+          "src": "/static/5.jpeg",
           "icons": "다이빙",
-          "title": "인터라켄에서 오시는경우",
+          "title": "Option1",
           "description":
             "Just dive in the sky! 5000m 상공에서 전문 다이버와 함께 스카이다이빙합니다. 픽업부터 다이빙전 교육까지 가격에 모두 포함되어 있습니다.",
           "price": "4200CZK"
         },
         {
-          "url":
-            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.330530327087!2d14.427835715717967!3d50.080098179426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b949280cf5443%3A0xaf71a8b7e994802d!2zVsOhY2xhdnNrw6kgbsOhbS4gODEzLzU3LCAxMTAgMDAgUHJhaGEgMS1Ob3bDqSBNxJtzdG8sIEN6ZWNoaWE!5e0!3m2!1sen!2skr!4v1513324022358",
+          "src": "/static/3.png",
           "icons": "다이빙 사진 또는 비디오",
-          "title": "라우터부르넨에서 오시는경우",
+          "title": "Option 2",
           "description":
             "Tandem Diving+Video ! 탠덤 다이빙과 함께 다이버의 고프로 영상과 사진을 제공합니다. 비행준비부터 다이빙까지! 평생의 추억을 영상으로 담아보세요.",
           "price": "5800CZK"
         },
         {
-          "url":
-            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.330530327087!2d14.427835715717967!3d50.080098179426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b949280cf5443%3A0xaf71a8b7e994802d!2zVsOhY2xhdnNrw6kgbsOhbS4gODEzLzU3LCAxMTAgMDAgUHJhaGEgMS1Ob3bDqSBNxJtzdG8sIEN6ZWNoaWE!5e0!3m2!1sen!2skr!4v1513324022358",
+          "src": "/static/4.jpeg",
           "icons": "다이빙 사진과 비디오",
-          "title": "쉴트호른에서 오시는 경우",
+          "title": "Option 3",
           "description":
             "Tandem Diving+Pictures+Video! 탠덤 다이빙과 함께 다이버의 고프로 영상과 사진을 제공합니다. 비행준비부터 다이빙까지! 평생의 추억을 영상과 사진으로 담아보세요.",
           "price": "6200CZK"
@@ -155,11 +179,10 @@
       ]
     }
   },
-  "twoColumnCarousel": {
-    "hidden": false,
+  "contact": {
     "bg": "",
     "prefix": {
-      "text": "예약안내",
+      "text": "Pick up",
       "bg": "",
       "color": "third",
       "fontStyle": "italic"
@@ -237,8 +260,8 @@
     }
   ],
   "disqus": {
-    "shortname": "airtime-paragliding",
-    "identifier": "airtime-paragliding-main",
-    "title": "Airtime Paragliding"
+    "shortname": "kantorskydive",
+    "identifier": "kantorskydive-main",
+    "title": "Skydive Kantor"
   }
 }
