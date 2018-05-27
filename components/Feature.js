@@ -19,6 +19,7 @@ export default ({heading, bgColor, py, features}) => {
                   src={feature.src}
                 />
                 <Text
+                  mx={['10%', 0]}
                   bold="bold"
                   color={features.titleColor}
                   fontSize={[4]}
@@ -26,6 +27,7 @@ export default ({heading, bgColor, py, features}) => {
                   {feature.title}
                 </Text>
                 <Text
+                  mx={['10%', 0]}
                   color={features.descriptionColor}
                   fontSize={[2]}
                   align="center">

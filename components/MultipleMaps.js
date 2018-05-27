@@ -2,8 +2,9 @@ import {Embed, Avatar, Image, Box, Flex, Button, Text, Banner} from 'rebass'
 import Container from './Container'
 import Prefix from './Prefix'
 import ElaboratedHeading from './ElaboratedHeading'
+import noDataNoRender from './HOC/noDataNoRender'
 
-export default ({heading, bgColor, maps}) => {
+export default noDataNoRender(({heading, bgColor, maps}) => {
   return (
     <Box py={[4]} bg={bgColor}>
       <Container>
@@ -60,4 +61,4 @@ export default ({heading, bgColor, maps}) => {
       </Container>
     </Box>
   )
-}
+})

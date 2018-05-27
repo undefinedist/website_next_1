@@ -40,7 +40,7 @@ export default noDataNoRender(
                 </Box>
                 {details.map((detail, i) => (
                   <Box key={i} my={[3]}>
-                    <Text color={detailTitleFontColor} fontSize={[0]}>
+                    <Text color={detailTitleFontColor} fontSize={[1]}>
                       {detail.title}
                     </Text>
                     <Text
@@ -54,7 +54,13 @@ export default noDataNoRender(
               </Flex>
             </Box>
             <Box pr={[0, 0, 4]} w={[1, 1, 1 / 2]}>
-              <InstructionCarousel />
+              <InstructionCarousel
+                slides={[
+                  {src: '/static/direction1.jpeg'},
+                  {src: '/static/insta_3.jpg'},
+                  {src: '/static/insta_1.jpg'},
+                ]}
+              />
             </Box>
           </Flex>
         </Container>

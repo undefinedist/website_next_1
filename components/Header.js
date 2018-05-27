@@ -1,6 +1,7 @@
 import {Fixed, Container, Image, Box, Flex, Button} from 'rebass'
 
 export default ({
+  pfKakao,
   headerColor,
   logoSrc,
   logoPy,
@@ -35,7 +36,7 @@ export default ({
             <Button
               is="a"
               target="_blank"
-              href="http://pf.kakao.com/_xeisixd"
+              href={pfKakao}
               px={[20, 20, 28]}
               py="10px"
               color={btnTextColor}

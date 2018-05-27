@@ -3,6 +3,7 @@ import Container from './Container'
 
 export default ({
   py,
+  pfKakao,
   bgColor,
   smallTitle,
   smallTitleColor,
@@ -33,7 +34,7 @@ export default ({
           <Button
             is="a"
             target="_blank"
-            href="http://pf.kakao.com/_xeisixd"
+            href={pfKakao}
             style={{letterSpacing: '3px'}}
             bg={btnBgColor}
             color={btnFontColor}

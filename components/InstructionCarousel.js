@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {withState} from 'recompose'
 import {
   Absolute,
   Button,
@@ -11,66 +12,44 @@ import {
   Heading,
 } from 'rebass'
 
-class InstructionCarousel extends Component {
-  state = {
-    checked: 0,
-  }
-
-  render() {
-    return (
-      <Relative>
-        <Carousel style={{margin: '0 auto'}} index={this.state.checked}>
-          <Box bg="blue">
-            <BackgroundImage src={'/static/insta_1.jpg'} />
+export default withState('currentSlide', 'setCurrentSlide', 0)(
+  ({slides, currentSlide, setCurrentSlide}) => (
+    <Relative>
+      <Carousel style={{margin: '0 auto'}} index={currentSlide}>
+        {slides.map(slide => (
+          <Box>
+            <BackgroundImage src={slide.src} />
           </Box>
-          <Box bg="gray">
-            <Flex p={6} justify="center" align="center">
-              <Heading>Rebass</Heading>
-            </Flex>
-          </Box>
-          <Box bg="red">
-            <Flex p={6} justify="center" align="center">
-              <Heading>Rebass</Heading>
-            </Flex>
-          </Box>
-        </Carousel>
-        <Absolute bottom={0} right={0}>
-          <Button
-            m={2}
-            onClick={() =>
-              this.setState(prevState => {
-                if (prevState.checked === 0) {
-                  return {
-                    checked: 2,
-                  }
-                }
-                return {
-                  checked: prevState.checked - 1,
-                }
-              })
-            }
-            children="Back"
-          />
-          <Button
-            m={2}
-            onClick={() =>
-              this.setState(prevState => {
-                if (prevState.checked === 2) {
-                  return {
-                    checked: 0,
-                  }
-                }
-                return {
-                  checked: prevState.checked + 1,
-                }
-              })
-            }
-            children="Next"
-          />
-        </Absolute>
-      </Relative>
-    )
-  }
-}
-
-export default InstructionCarousel
+        ))}
+      </Carousel>
+      <Absolute bottom={0} right={0}>
+        <Button
+          bg="transparent"
+          m={2}
+          onClick={() =>
+            setCurrentSlide(prevSlide => {
+              if (prevSlide === 0) {
+                return slides.length - 1
+              }
+              return prevSlide - 1
+            })
+          }
+          children="Back"
+        />
+        <Button
+          bg="transparent"
+          m={2}
+          onClick={() =>
+            setCurrentSlide(prevSlide => {
+              if (prevSlide === slides.length - 1) {
+                return 0
+              }
+              return prevSlide + 1
+            })
+          }
+          children="Next"
+        />
+      </Absolute>
+    </Relative>
+  ),
+)

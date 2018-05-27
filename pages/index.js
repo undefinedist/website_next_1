@@ -13,6 +13,7 @@ import {Box} from 'rebass'
 import Container from '../components/Container'
 import TwoColumnCarousel from '../components/TwoColumnCarousel'
 import MultipleMaps from '../components/MultipleMaps'
+import Locations from '../components/Locations'
 
 export default () => (
   <Layout>
@@ -22,8 +23,8 @@ export default () => (
     <Feature py={5} {...data.feature} />
     <Contact py={5} {...data.contact} />
     <Pricing py={5} {...data.pricing} />
+    <Locations py={5} {...data.locations} />
     <MultipleMaps py={5} {...data.multipleMaps} />
-
     <TwoColumnCarousel py={5} {...data.twoColumnCarousel} />
     <Container>
       <Box py={5} mx={['3.3%', '1.3%']}>

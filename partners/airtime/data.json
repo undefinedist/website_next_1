@@ -3,6 +3,7 @@
     "title": "Airtime Paragliding"
   },
   "header": {
+    "pfKakao": "http://pf.kakao.com/_KmYNC",
     "headerColor": "headerColor",
     "logoSrc": "/static/logo.png",
     "logoPy": "10px",
@@ -42,6 +43,37 @@
     "subTitleFontColor": "black",
     "thirdTitleFontColor": "gray"
   },
+  "gallery": {
+    "images": [
+      {
+        "src": "/static/insta_1.jpg"
+      },
+      {
+        "src": "/static/insta_5.jpg"
+      },
+      {
+        "src": "/static/insta_4.jpg"
+      },
+      {
+        "src": "/static/insta_7.jpg"
+      },
+      {
+        "src": "/static/insta_9.jpg"
+      },
+      {
+        "src": "/static/insta_8.jpg"
+      },
+      {
+        "src": "/static/insta_6.jpg"
+      },
+      {
+        "src": "/static/insta_2.jpg"
+      },
+      {
+        "src": "/static/insta_3.jpg"
+      }
+    ]
+  },
   "feature": {
     "bgColor": "",
     "heading": {
@@ -78,79 +110,40 @@
       ]
     }
   },
-  "gallery": {
-    "images": [
-      {
-        "src": "/static/insta_1.jpg"
-      },
-      {
-        "src": "/static/insta_4.jpg"
-      },
-      {
-        "src": "/static/insta_5.jpg"
-      },
-      {
-        "src": "/static/insta_7.jpg"
-      },
-      {
-        "src": "/static/insta_8.jpg"
-      },
-      {
-        "src": "/static/insta_9.jpg"
-      },
-      {
-        "src": "/static/insta_2.jpg"
-      },
-      {
-        "src": "/static/insta_6.jpg"
-      },
-      {
-        "src": "/static/insta_3.jpg"
-      }
-    ]
-  },
-  "multipleMaps": {
+  "locations": {
+    "hidden": false,
     "heading": {
-      "prefix": "Video",
-      "primary": "Pick up points",
-      "surfix": "내려오면서 날라가요",
+      "prefix": "Pick up",
+      "primary": "Points",
+      "surfix": "어디든지 무료 픽업",
       "prefixColor": "third",
       "primaryColor": "black",
       "surfixColor": "gray",
       "type": "center"
     },
     "bgColor": "",
-    "maps": {
+    "locs": {
       "titleColor": "black",
       "descriptionColor": "gray",
       "cardColor": "white",
       "items": [
         {
-          "url":
-            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.330530327087!2d14.427835715717967!3d50.080098179426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b949280cf5443%3A0xaf71a8b7e994802d!2zVsOhY2xhdnNrw6kgbsOhbS4gODEzLzU3LCAxMTAgMDAgUHJhaGEgMS1Ob3bDqSBNxJtzdG8sIEN6ZWNoaWE!5e0!3m2!1sen!2skr!4v1513324022358",
-          "icons": "다이빙",
+          "src": "/static/map1.jpeg",
           "title": "인터라켄에서 오시는경우",
           "description":
-            "Just dive in the sky! 5000m 상공에서 전문 다이버와 함께 스카이다이빙합니다. 픽업부터 다이빙전 교육까지 가격에 모두 포함되어 있습니다.",
-          "price": "4200CZK"
+            "인터라켄의 호텔 또는 호스텔명을 예약 시 알려주세요. 저희 차량이 해당 숙소로 픽업을 갑니다. 물론 픽업비용은 무료입니다."
         },
         {
-          "url":
-            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.330530327087!2d14.427835715717967!3d50.080098179426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b949280cf5443%3A0xaf71a8b7e994802d!2zVsOhY2xhdnNrw6kgbsOhbS4gODEzLzU3LCAxMTAgMDAgUHJhaGEgMS1Ob3bDqSBNxJtzdG8sIEN6ZWNoaWE!5e0!3m2!1sen!2skr!4v1513324022358",
-          "icons": "다이빙 사진 또는 비디오",
+          "src": "/static/map2.jpeg",
           "title": "라우터부르넨에서 오시는경우",
           "description":
-            "Tandem Diving+Video ! 탠덤 다이빙과 함께 다이버의 고프로 영상과 사진을 제공합니다. 비행준비부터 다이빙까지! 평생의 추억을 영상으로 담아보세요.",
-          "price": "5800CZK"
+            "라우터브루넨에 계신 경우에도 묵고 계신 숙소명을 알려주시면 저희 밴으로 픽업을 갑니다. 또는 라우터브루넨의 Airtime Cafe로 먼저 오셔서 무료로 제공되는 따뜻한 커피한잔을 즐기셔도 됩니다."
         },
         {
-          "url":
-            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.330530327087!2d14.427835715717967!3d50.080098179426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b949280cf5443%3A0xaf71a8b7e994802d!2zVsOhY2xhdnNrw6kgbsOhbS4gODEzLzU3LCAxMTAgMDAgUHJhaGEgMS1Ob3bDqSBNxJtzdG8sIEN6ZWNoaWE!5e0!3m2!1sen!2skr!4v1513324022358",
-          "icons": "다이빙 사진과 비디오",
+          "src": "/static/map3.jpeg",
           "title": "쉴트호른에서 오시는 경우",
           "description":
-            "Tandem Diving+Pictures+Video! 탠덤 다이빙과 함께 다이버의 고프로 영상과 사진을 제공합니다. 비행준비부터 다이빙까지! 평생의 추억을 영상과 사진으로 담아보세요.",
-          "price": "6200CZK"
+            "쉴트호른 관광을 마치신 뒤라면 케이블카를 타신 뒤 Mürren에서 내려주세요. 뮤렌에서 저희 파일럿과 만나신 뒤 바로 패러글라이딩을 즐기실 수 있습니다."
         }
       ]
     }
@@ -159,26 +152,33 @@
     "hidden": false,
     "bg": "",
     "prefix": {
-      "text": "예약안내",
+      "text": "자주 묻는 질문",
       "bg": "",
       "color": "third",
       "fontStyle": "italic"
     },
-    "title": "Point",
+    "title": "FAQ",
     "titleColor": "black",
-    "description": "아래 주소에서 픽업차량에 승차해주시기 바랍니다",
+    "description": "",
     "descriptionColor": "gray",
     "details": [
       {
-        "title": "픽업주소",
-        "description":
-          "스타벅스 앞, Václavské nám. 813/57, Nové Město, 110 00 Praha, 체코"
+        "title": "가격",
+        "description": "2018년 여름 시즌 : 170CHF (사진촬영비용 40CHF 별도)"
       },
-      {"title": "예약상담", "description": "카카오톡 아이디 : 칸토코리아"},
+      {
+        "title": "포함사항",
+        "description":
+          "보험, 픽업(인터라켄, 라우터브루넨, 그린델발트 전지역), 비행 후 Airtime cafe에서의 음료 한잔"
+      },
+      {
+        "title": "무게제한/나이제한",
+        "description": "100kg, 나이제한 없음(아동 전용 안전장비 보유)"
+      },
       {
         "title": "유의사항",
         "description":
-          "픽업 주소는 현지 교통상황에 따라 변동될 수 있습니다. 픽업시간 10분전에는 여유있게 도착하시길 권장드립니다. 픽업 차량 탑승 후 30분여 이동하여 교육 및 실습 후 다이빙이 이루어지며 교통상황 및 기상대기를 고려하면 총 3~4시간 소요됩니다. 칸토코리아는 안전수칙을 준수하며 기상상황에 따라 스카이다이빙은 취소 될 수 있으며 이 경우 고객님께 고지드립니다."
+          "각자의 숙소에서 픽업차량을 통해 Stechelberg (케이블카 정류장)까지는 저희 차량을 통해 무료로 이동합니다. 그 이후 패러글라이딩의 점프를 하는 곳인 Mürren 까지는 케이블카로 이동합니다. 케이블카 티켓은 5.7CHF정도 별도 추가비용이 발생합니다. 스위스패스 소지자의 경우 추가비용이 없습니다."
       }
     ],
     "detailTitleFontColor": "third",
@@ -189,6 +189,7 @@
     }
   },
   "callToAction": {
+    "pfKakao": "http://pf.kakao.com/_KmYNC",
     "bgColor": "",
     "smallTitle": "2018 SEASON EARLY BIRD",
     "smallTitleColor": "first",
@@ -203,9 +204,9 @@
     "bgColor": "gray",
     "companies": [
       {
-        "logoUrl": "https://dummyimage.com/300x82/000/fff.png&text=KANTOR",
-        "name": "Skydive Kantor",
-        "email": "posta@padaky.cz",
+        "logoUrl": "https://dummyimage.com/300x82/000/fff.png&text=AIRTIME",
+        "name": "Airtime Paragliding",
+        "email": "info@airtime-paragliding.ch",
         "phone": "+420 603 456 227",
         "serial": ""
       },

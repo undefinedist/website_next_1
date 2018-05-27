@@ -1,0 +1,18 @@
+{
+  "font": "\"Roboto\", \"Neuton\", \"Noto Sans Korean\", sans-serif",
+  "fontSizes": [12, 14, 16, 20, 24, 32, 48, 64, 72, 96],
+  "spaces": [4, 8, 16, 32, 64, 128, 256],
+  "breakpoints": ["640px", "840px", "1024px"],
+  "colors": {
+    "black": "#000",
+    "gray": "#686865",
+    "yellow": "#ECDE67",
+    "first": "#3991DD",
+    "second": "#9DC5BB",
+    "third": "#ED6A5A",
+    "fourth": "#F4F1BB",
+    "fifth": "#F4F1DE",
+    "headerColor": "rgba(57, 145, 221, 0)",
+    "bottonColor": "#ECDC67"
+  }
+}

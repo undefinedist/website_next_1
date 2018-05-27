@@ -3,6 +3,7 @@
     "title": "Skydive Kantor"
   },
   "header": {
+    "pfKakao": "http://pf.kakao.com/_xeisixd",
     "headerColor": "headerColor",
     "logoSrc": "/static/logo.png",
     "logoPy": "10px",
@@ -33,7 +34,7 @@
       "color": "third",
       "align": "left"
     },
-    "videoUrl": "https://www.youtube.com/embed/K5Oe7wFXjMQ",
+    "videoUrl": "https://www.youtube.com/embed/vNERI7sKaqQ",
     "title": "SKYDIVE KANTOR",
     "subTitle": "Since 1998 in Prague",
     "thirdTitle":
@@ -137,6 +138,7 @@
     ]
   },
   "pricing": {
+    "hidden": false,
     "heading": {
       "prefix": "Video",
       "primary": "Price List",
@@ -180,6 +182,7 @@
     }
   },
   "contact": {
+    "hidden": false,
     "bg": "",
     "prefix": {
       "text": "Pick up",
@@ -212,6 +215,7 @@
     }
   },
   "callToAction": {
+    "pfKakao": "http://pf.kakao.com/_xeisixd",
     "bgColor": "",
     "smallTitle": "2018 SEASON EARLY BIRD",
     "smallTitleColor": "first",
